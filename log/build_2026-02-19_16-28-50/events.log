@@ -1,0 +1,709 @@
+[0.000000] (-) TimerEvent: {}
+[0.000446] (-) JobUnselected: {'identifier': 'odrive_botwheel_explorer'}
+[0.000828] (-) JobUnselected: {'identifier': 'odrive_can'}
+[0.001263] (-) JobUnselected: {'identifier': 'odrive_ros2_control'}
+[0.002651] (hello_world) JobQueued: {'identifier': 'hello_world', 'dependencies': OrderedDict()}
+[0.002969] (hello_world) JobStarted: {'identifier': 'hello_world'}
+[0.042457] (hello_world) JobProgress: {'identifier': 'hello_world', 'progress': 'cmake'}
+[0.043859] (hello_world) Command: {'cmd': ['/usr/bin/cmake', '/home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world', '-DCMAKE_INSTALL_PREFIX=/home/pneumatic8/Documents/ros2_odrive/install/hello_world'], 'cwd': '/home/pneumatic8/Documents/ros2_odrive/build/hello_world', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pneumatic8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pneumatic8/Documents/ros2_odrive/install/odrive_ros2_control/lib:/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pneumatic8', 'OLDPWD': '/home/pneumatic8', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2562', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pneumatic8', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pneumatic8', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/DEECPi5:@/tmp/.ICE-unix/2528,unix/DEECPi5:/tmp/.ICE-unix/2528', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/633cc4f1_734e_4c9e_8afd_097e8b970f06', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YJLUK3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.278', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install/odrive_botwheel_explorer:/home/pneumatic8/Documents/ros2_odrive/install/odrive_ros2_control:/home/pneumatic8/Documents/ros2_odrive/install/odrive_can:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pneumatic8/Documents/ros2_odrive/build/hello_world', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install/odrive_botwheel_explorer:/home/pneumatic8/Documents/ros2_odrive/install/odrive_ros2_control:/home/pneumatic8/Documents/ros2_odrive/install/odrive_can:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099702] (-) TimerEvent: {}
+[0.198091] (hello_world) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199792] (-) TimerEvent: {}
+[0.312830] (-) TimerEvent: {}
+[0.354418] (hello_world) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.383816] (hello_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.412957] (-) TimerEvent: {}
+[0.513406] (-) TimerEvent: {}
+[0.605431] (hello_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.613509] (-) TimerEvent: {}
+[0.629897] (hello_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.630521] (hello_world) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.631203] (hello_world) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.653315] (hello_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.713660] (-) TimerEvent: {}
+[0.814178] (-) TimerEvent: {}
+[0.917153] (-) TimerEvent: {}
+[0.943896] (hello_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.958608] (hello_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.959033] (hello_world) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.959755] (hello_world) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.963673] (hello_world) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.017581] (-) TimerEvent: {}
+[1.118081] (-) TimerEvent: {}
+[1.218524] (-) TimerEvent: {}
+[1.256482] (hello_world) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.318647] (-) TimerEvent: {}
+[1.419018] (-) TimerEvent: {}
+[1.466877] (hello_world) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.519138] (-) TimerEvent: {}
+[1.523557] (hello_world) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.554828] (hello_world) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.578788] (hello_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.604699] (hello_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.619242] (-) TimerEvent: {}
+[1.719592] (-) TimerEvent: {}
+[1.725828] (hello_world) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.737270] (hello_world) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.819749] (-) TimerEvent: {}
+[1.895338] (hello_world) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.919869] (-) TimerEvent: {}
+[1.931739] (hello_world) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.975768] (hello_world) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.019991] (-) TimerEvent: {}
+[2.086758] (hello_world) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.109236] (hello_world) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.120090] (-) TimerEvent: {}
+[2.220414] (-) TimerEvent: {}
+[2.320784] (-) TimerEvent: {}
+[2.349519] (hello_world) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.358152] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):\n'}
+[2.358540] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.c':\n"}
+[2.358692] (hello_world) StderrLine: {'line': b'\n'}
+[2.358803] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.358903] (hello_world) StderrLine: {'line': b'\n'}
+[2.359019] (hello_world) StderrLine: {'line': b'\n'}
+[2.359210] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.359336] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.359455] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.359562] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.359671] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.359865] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.359989] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.360138] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.360252] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.363517] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):\n'}
+[2.363935] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.cc':\n"}
+[2.364097] (hello_world) StderrLine: {'line': b'\n'}
+[2.364241] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.364360] (hello_world) StderrLine: {'line': b'\n'}
+[2.364467] (hello_world) StderrLine: {'line': b'\n'}
+[2.364586] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.364747] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.364864] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.364978] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.365140] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.365292] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.365439] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.366009] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.368614] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.369013] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):\n'}
+[2.369252] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.cpp':\n"}
+[2.369366] (hello_world) StderrLine: {'line': b'\n'}
+[2.369467] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.369558] (hello_world) StderrLine: {'line': b'\n'}
+[2.369647] (hello_world) StderrLine: {'line': b'\n'}
+[2.369750] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.369860] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.371357] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.371535] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.373556] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.374014] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.374219] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.374342] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.374447] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.376986] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):\n'}
+[2.377341] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.cxx':\n"}
+[2.377471] (hello_world) StderrLine: {'line': b'\n'}
+[2.377576] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.377702] (hello_world) StderrLine: {'line': b'\n'}
+[2.377803] (hello_world) StderrLine: {'line': b'\n'}
+[2.377896] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.377993] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.378160] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.378302] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.378440] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.378566] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.378726] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.378836] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.378946] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.384408] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):\n'}
+[2.384765] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.h':\n"}
+[2.384893] (hello_world) StderrLine: {'line': b'\n'}
+[2.384991] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.385121] (hello_world) StderrLine: {'line': b'\n'}
+[2.385229] (hello_world) StderrLine: {'line': b'\n'}
+[2.385308] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.385393] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.385472] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.385553] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.385638] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.386261] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.386469] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.386558] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.386639] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.391160] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):\n'}
+[2.391460] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.hh':\n"}
+[2.391620] (hello_world) StderrLine: {'line': b'\n'}
+[2.391729] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.391820] (hello_world) StderrLine: {'line': b'\n'}
+[2.391909] (hello_world) StderrLine: {'line': b'\n'}
+[2.391997] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.392108] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.392206] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.392288] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.392368] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.392445] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.392553] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.392638] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.392716] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.396083] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):\n'}
+[2.396392] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.hpp':\n"}
+[2.396489] (hello_world) StderrLine: {'line': b'\n'}
+[2.396573] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.396679] (hello_world) StderrLine: {'line': b'\n'}
+[2.396756] (hello_world) StderrLine: {'line': b'\n'}
+[2.396832] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.396910] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.396989] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.397079] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.397167] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.397244] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.397324] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.397401] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.397476] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.400839] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):\n'}
+[2.403158] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.hxx':\n"}
+[2.403266] (hello_world) StderrLine: {'line': b'\n'}
+[2.403361] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.403450] (hello_world) StderrLine: {'line': b'\n'}
+[2.403537] (hello_world) StderrLine: {'line': b'\n'}
+[2.403615] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.403730] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.403809] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.403887] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.403969] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.404045] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.404166] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.404248] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.404327] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.404411] (hello_world) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.404513] (hello_world) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.404597] (hello_world) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.409030] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):\n'}
+[2.411728] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.c':\n"}
+[2.411840] (hello_world) StderrLine: {'line': b'\n'}
+[2.411927] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.412011] (hello_world) StderrLine: {'line': b'\n'}
+[2.412113] (hello_world) StderrLine: {'line': b'\n'}
+[2.412199] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.412283] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.412362] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.412482] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.412566] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.412648] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.412731] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.412814] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.412901] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.413711] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):\n'}
+[2.413937] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.cc':\n"}
+[2.414025] (hello_world) StderrLine: {'line': b'\n'}
+[2.414140] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.414224] (hello_world) StderrLine: {'line': b'\n'}
+[2.414305] (hello_world) StderrLine: {'line': b'\n'}
+[2.414383] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.414488] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.414581] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.414669] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.414762] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.414843] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.414922] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.415006] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.415106] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.419276] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):\n'}
+[2.419465] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.cpp':\n"}
+[2.419553] (hello_world) StderrLine: {'line': b'\n'}
+[2.419635] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.419715] (hello_world) StderrLine: {'line': b'\n'}
+[2.419794] (hello_world) StderrLine: {'line': b'\n'}
+[2.419964] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.420075] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.420174] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.420258] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.420339] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.420420] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.420499] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.420576] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.420662] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.420837] (-) TimerEvent: {}
+[2.424522] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):\n'}
+[2.428708] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.cxx':\n"}
+[2.429443] (hello_world) StderrLine: {'line': b'\n'}
+[2.433957] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.435206] (hello_world) StderrLine: {'line': b'\n'}
+[2.436309] (hello_world) StderrLine: {'line': b'\n'}
+[2.436677] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.437027] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.437233] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.437365] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.437512] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.437694] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.437929] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.438464] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.438648] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.438807] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):\n'}
+[2.438931] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.h':\n"}
+[2.439041] (hello_world) StderrLine: {'line': b'\n'}
+[2.439210] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.439322] (hello_world) StderrLine: {'line': b'\n'}
+[2.439420] (hello_world) StderrLine: {'line': b'\n'}
+[2.439526] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.439624] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.439717] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.439817] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.440099] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.441140] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.442104] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.442385] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.443226] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.445795] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):\n'}
+[2.446312] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.hh':\n"}
+[2.446460] (hello_world) StderrLine: {'line': b'\n'}
+[2.446578] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.446727] (hello_world) StderrLine: {'line': b'\n'}
+[2.446846] (hello_world) StderrLine: {'line': b'\n'}
+[2.446946] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.447091] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.447324] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.447451] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.447561] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.447719] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.447857] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.448012] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.448736] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.454582] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):\n'}
+[2.455047] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.hpp':\n"}
+[2.455201] (hello_world) StderrLine: {'line': b'\n'}
+[2.455296] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.455389] (hello_world) StderrLine: {'line': b'\n'}
+[2.455478] (hello_world) StderrLine: {'line': b'\n'}
+[2.455569] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.455657] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.455741] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.455830] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.455926] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.456015] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.456134] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.456231] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.456313] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.458487] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):\n'}
+[2.459087] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.hxx':\n"}
+[2.459303] (hello_world) StderrLine: {'line': b'\n'}
+[2.459484] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.459666] (hello_world) StderrLine: {'line': b'\n'}
+[2.459848] (hello_world) StderrLine: {'line': b'\n'}
+[2.460385] (hello_world) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.460665] (hello_world) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.460783] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.460893] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.460986] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.461104] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.461285] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.461409] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.461576] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.461690] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.461798] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.466749] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_flake8/cmake/ament_cmake_flake8_lint_hook.cmake:15 (file):\n'}
+[2.468574] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.py':\n"}
+[2.468829] (hello_world) StderrLine: {'line': b'\n'}
+[2.468978] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.469171] (hello_world) StderrLine: {'line': b'\n'}
+[2.469292] (hello_world) StderrLine: {'line': b'\n'}
+[2.469392] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.469536] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.469635] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.469727] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.469831] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.469918] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.470035] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.470216] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.470338] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.470437] (hello_world) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.470582] (hello_world) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.475125] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmake_lint_hook.cmake:15 (file):\n'}
+[2.475560] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for 'CMakeLists.txt':\n"}
+[2.475704] (hello_world) StderrLine: {'line': b'\n'}
+[2.475796] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.475883] (hello_world) StderrLine: {'line': b'\n'}
+[2.475964] (hello_world) StderrLine: {'line': b'\n'}
+[2.476042] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.476167] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.476289] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.476384] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.476473] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.476554] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.476634] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.476714] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.476799] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.479799] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmake_lint_hook.cmake:15 (file):\n'}
+[2.480126] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.cmake':\n"}
+[2.480241] (hello_world) StderrLine: {'line': b'\n'}
+[2.480323] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.480404] (hello_world) StderrLine: {'line': b'\n'}
+[2.480484] (hello_world) StderrLine: {'line': b'\n'}
+[2.480566] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.480657] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.480737] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.480823] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.480932] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.481016] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.481128] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.481221] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.481310] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.481391] (hello_world) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.486125] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_pep257/cmake/ament_cmake_pep257_lint_hook.cmake:15 (file):\n'}
+[2.488270] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.py':\n"}
+[2.488401] (hello_world) StderrLine: {'line': b'\n'}
+[2.488495] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.488578] (hello_world) StderrLine: {'line': b'\n'}
+[2.488667] (hello_world) StderrLine: {'line': b'\n'}
+[2.488761] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.488854] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.488944] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.489030] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.489143] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.489227] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.489317] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.489410] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.489501] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.489595] (hello_world) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.493992] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):\n'}
+[2.497332] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.c':\n"}
+[2.497437] (hello_world) StderrLine: {'line': b'\n'}
+[2.497522] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.497605] (hello_world) StderrLine: {'line': b'\n'}
+[2.497685] (hello_world) StderrLine: {'line': b'\n'}
+[2.497763] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.497867] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.497947] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.498028] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.498129] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.498228] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.498310] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.498389] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.498487] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.498655] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):\n'}
+[2.498743] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.cc':\n"}
+[2.498827] (hello_world) StderrLine: {'line': b'\n'}
+[2.498909] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.498990] (hello_world) StderrLine: {'line': b'\n'}
+[2.499086] (hello_world) StderrLine: {'line': b'\n'}
+[2.499194] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.499286] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.499369] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.499450] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.499532] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.499618] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.499705] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.499791] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.499878] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.503584] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):\n'}
+[2.503912] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.cpp':\n"}
+[2.504043] (hello_world) StderrLine: {'line': b'\n'}
+[2.504193] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.504317] (hello_world) StderrLine: {'line': b'\n'}
+[2.504423] (hello_world) StderrLine: {'line': b'\n'}
+[2.504517] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.504608] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.504696] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.504786] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.504883] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.504980] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.505133] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.505226] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.505328] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.508389] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):\n'}
+[2.508567] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.cxx':\n"}
+[2.508653] (hello_world) StderrLine: {'line': b'\n'}
+[2.508733] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.508846] (hello_world) StderrLine: {'line': b'\n'}
+[2.508930] (hello_world) StderrLine: {'line': b'\n'}
+[2.509007] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.509118] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.509211] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.509292] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.509373] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.509452] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.509531] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.509608] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.509686] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.512681] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):\n'}
+[2.512910] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.h':\n"}
+[2.513006] (hello_world) StderrLine: {'line': b'\n'}
+[2.513110] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.513198] (hello_world) StderrLine: {'line': b'\n'}
+[2.513278] (hello_world) StderrLine: {'line': b'\n'}
+[2.513357] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.513438] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.513516] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.513596] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.513675] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.513753] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.513832] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.513910] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.513993] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.517045] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):\n'}
+[2.517220] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.hh':\n"}
+[2.517307] (hello_world) StderrLine: {'line': b'\n'}
+[2.517390] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.517471] (hello_world) StderrLine: {'line': b'\n'}
+[2.517577] (hello_world) StderrLine: {'line': b'\n'}
+[2.517657] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.517759] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.517841] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.517923] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.518003] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.518092] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.518181] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.518259] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.518339] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.520908] (-) TimerEvent: {}
+[2.521405] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):\n'}
+[2.521565] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.hpp':\n"}
+[2.521690] (hello_world) StderrLine: {'line': b'\n'}
+[2.521853] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.522001] (hello_world) StderrLine: {'line': b'\n'}
+[2.522254] (hello_world) StderrLine: {'line': b'\n'}
+[2.522440] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.522651] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.523083] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.523916] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.524474] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.525003] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.525449] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.525726] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.525955] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.530437] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):\n'}
+[2.531561] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.hxx':\n"}
+[2.532372] (hello_world) StderrLine: {'line': b'\n'}
+[2.532958] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.533473] (hello_world) StderrLine: {'line': b'\n'}
+[2.533673] (hello_world) StderrLine: {'line': b'\n'}
+[2.533843] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.534024] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.534229] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.534373] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.534497] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.534662] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.534786] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.534944] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.535074] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.535190] (hello_world) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.535303] (hello_world) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.542616] (hello_world) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.543187] (hello_world) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_xmllint/cmake/ament_cmake_xmllint_lint_hook.cmake:15 (file):\n'}
+[2.543437] (hello_world) StderrLine: {'line': b"  Cyclic recursion detected while globbing for '*.xml':\n"}
+[2.543632] (hello_world) StderrLine: {'line': b'\n'}
+[2.543772] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world\n'}
+[2.543901] (hello_world) StderrLine: {'line': b'\n'}
+[2.544014] (hello_world) StderrLine: {'line': b'\n'}
+[2.544157] (hello_world) StderrLine: {'line': b'  /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root\n'}
+[2.544262] (hello_world) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.544361] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.544476] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)\n'}
+[2.544583] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.544672] (hello_world) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[2.544756] (hello_world) StderrLine: {'line': b'  CMakeLists.txt:29 (ament_package)\n'}
+[2.544838] (hello_world) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.544924] (hello_world) StderrLine: {'line': b'\x1b[0m\n'}
+[2.545185] (hello_world) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.573179] (hello_world) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.581878] (hello_world) StdoutLine: {'line': b'-- Build files have been written to: /home/pneumatic8/Documents/ros2_odrive/build/hello_world\n'}
+[2.606947] (hello_world) CommandEnded: {'returncode': 0}
+[2.607990] (hello_world) JobProgress: {'identifier': 'hello_world', 'progress': 'build'}
+[2.610203] (hello_world) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pneumatic8/Documents/ros2_odrive/build/hello_world', '--', '-j4', '-l4'], 'cwd': '/home/pneumatic8/Documents/ros2_odrive/build/hello_world', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pneumatic8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pneumatic8/Documents/ros2_odrive/install/odrive_ros2_control/lib:/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pneumatic8', 'OLDPWD': '/home/pneumatic8', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2562', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pneumatic8', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pneumatic8', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/DEECPi5:@/tmp/.ICE-unix/2528,unix/DEECPi5:/tmp/.ICE-unix/2528', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/633cc4f1_734e_4c9e_8afd_097e8b970f06', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YJLUK3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.278', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install/odrive_botwheel_explorer:/home/pneumatic8/Documents/ros2_odrive/install/odrive_ros2_control:/home/pneumatic8/Documents/ros2_odrive/install/odrive_can:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pneumatic8/Documents/ros2_odrive/build/hello_world', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install/odrive_botwheel_explorer:/home/pneumatic8/Documents/ros2_odrive/install/odrive_ros2_control:/home/pneumatic8/Documents/ros2_odrive/install/odrive_can:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.621082] (-) TimerEvent: {}
+[2.721518] (-) TimerEvent: {}
+[2.760708] (hello_world) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_world_publisher.dir/src/hello_world_node.cpp.o\x1b[0m\n'}
+[2.761079] (hello_world) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_world_subscriber.dir/src/subscriber_node.cpp.o\x1b[0m\n'}
+[2.821658] (-) TimerEvent: {}
+[2.922062] (-) TimerEvent: {}
+[3.022456] (-) TimerEvent: {}
+[3.122854] (-) TimerEvent: {}
+[3.223255] (-) TimerEvent: {}
+[3.323721] (-) TimerEvent: {}
+[3.424145] (-) TimerEvent: {}
+[3.524584] (-) TimerEvent: {}
+[3.625075] (-) TimerEvent: {}
+[3.726153] (-) TimerEvent: {}
+[3.826573] (-) TimerEvent: {}
+[3.926995] (-) TimerEvent: {}
+[4.027434] (-) TimerEvent: {}
+[4.127846] (-) TimerEvent: {}
+[4.228335] (-) TimerEvent: {}
+[4.328817] (-) TimerEvent: {}
+[4.429273] (-) TimerEvent: {}
+[4.529693] (-) TimerEvent: {}
+[4.630145] (-) TimerEvent: {}
+[4.730570] (-) TimerEvent: {}
+[4.831031] (-) TimerEvent: {}
+[4.931464] (-) TimerEvent: {}
+[5.031886] (-) TimerEvent: {}
+[5.132355] (-) TimerEvent: {}
+[5.232774] (-) TimerEvent: {}
+[5.333193] (-) TimerEvent: {}
+[5.433650] (-) TimerEvent: {}
+[5.534148] (-) TimerEvent: {}
+[5.634599] (-) TimerEvent: {}
+[5.735031] (-) TimerEvent: {}
+[5.835465] (-) TimerEvent: {}
+[5.935903] (-) TimerEvent: {}
+[6.036364] (-) TimerEvent: {}
+[6.136799] (-) TimerEvent: {}
+[6.237272] (-) TimerEvent: {}
+[6.337699] (-) TimerEvent: {}
+[6.438146] (-) TimerEvent: {}
+[6.538585] (-) TimerEvent: {}
+[6.639023] (-) TimerEvent: {}
+[6.739488] (-) TimerEvent: {}
+[6.839943] (-) TimerEvent: {}
+[6.940399] (-) TimerEvent: {}
+[7.040830] (-) TimerEvent: {}
+[7.141276] (-) TimerEvent: {}
+[7.241717] (-) TimerEvent: {}
+[7.342157] (-) TimerEvent: {}
+[7.442576] (-) TimerEvent: {}
+[7.543031] (-) TimerEvent: {}
+[7.643464] (-) TimerEvent: {}
+[7.744583] (-) TimerEvent: {}
+[7.845016] (-) TimerEvent: {}
+[7.945477] (-) TimerEvent: {}
+[8.045912] (-) TimerEvent: {}
+[8.146355] (-) TimerEvent: {}
+[8.246780] (-) TimerEvent: {}
+[8.350362] (-) TimerEvent: {}
+[8.450971] (-) TimerEvent: {}
+[8.551428] (-) TimerEvent: {}
+[8.651863] (-) TimerEvent: {}
+[8.752325] (-) TimerEvent: {}
+[8.852827] (-) TimerEvent: {}
+[8.953413] (-) TimerEvent: {}
+[9.053902] (-) TimerEvent: {}
+[9.154333] (-) TimerEvent: {}
+[9.254782] (-) TimerEvent: {}
+[9.355504] (-) TimerEvent: {}
+[9.455960] (-) TimerEvent: {}
+[9.556535] (-) TimerEvent: {}
+[9.656972] (-) TimerEvent: {}
+[9.757425] (-) TimerEvent: {}
+[9.857859] (-) TimerEvent: {}
+[9.958334] (-) TimerEvent: {}
+[10.058758] (-) TimerEvent: {}
+[10.159203] (-) TimerEvent: {}
+[10.259650] (-) TimerEvent: {}
+[10.360115] (-) TimerEvent: {}
+[10.460575] (-) TimerEvent: {}
+[10.561041] (-) TimerEvent: {}
+[10.661536] (-) TimerEvent: {}
+[10.762001] (-) TimerEvent: {}
+[10.862462] (-) TimerEvent: {}
+[10.962890] (-) TimerEvent: {}
+[11.063343] (-) TimerEvent: {}
+[11.163798] (-) TimerEvent: {}
+[11.264272] (-) TimerEvent: {}
+[11.364688] (-) TimerEvent: {}
+[11.465137] (-) TimerEvent: {}
+[11.565570] (-) TimerEvent: {}
+[11.666018] (-) TimerEvent: {}
+[11.766485] (-) TimerEvent: {}
+[11.866941] (-) TimerEvent: {}
+[11.967523] (-) TimerEvent: {}
+[12.067947] (-) TimerEvent: {}
+[12.168352] (-) TimerEvent: {}
+[12.268795] (-) TimerEvent: {}
+[12.372446] (-) TimerEvent: {}
+[12.472940] (-) TimerEvent: {}
+[12.562774] (hello_world) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable hello_world_publisher\x1b[0m\n'}
+[12.573098] (-) TimerEvent: {}
+[12.673671] (-) TimerEvent: {}
+[12.774703] (-) TimerEvent: {}
+[12.875617] (-) TimerEvent: {}
+[12.976131] (-) TimerEvent: {}
+[13.076655] (-) TimerEvent: {}
+[13.173619] (hello_world) StdoutLine: {'line': b'[ 75%] Built target hello_world_publisher\n'}
+[13.176751] (-) TimerEvent: {}
+[13.277126] (-) TimerEvent: {}
+[13.377510] (-) TimerEvent: {}
+[13.477877] (-) TimerEvent: {}
+[13.578289] (-) TimerEvent: {}
+[13.678669] (-) TimerEvent: {}
+[13.779030] (-) TimerEvent: {}
+[13.879843] (-) TimerEvent: {}
+[13.980309] (-) TimerEvent: {}
+[14.080691] (-) TimerEvent: {}
+[14.181078] (-) TimerEvent: {}
+[14.281448] (-) TimerEvent: {}
+[14.381818] (-) TimerEvent: {}
+[14.482184] (-) TimerEvent: {}
+[14.582550] (-) TimerEvent: {}
+[14.682926] (-) TimerEvent: {}
+[14.783336] (-) TimerEvent: {}
+[14.883746] (-) TimerEvent: {}
+[14.984143] (-) TimerEvent: {}
+[15.084510] (-) TimerEvent: {}
+[15.184875] (-) TimerEvent: {}
+[15.285263] (-) TimerEvent: {}
+[15.385647] (-) TimerEvent: {}
+[15.486043] (-) TimerEvent: {}
+[15.586443] (-) TimerEvent: {}
+[15.686809] (-) TimerEvent: {}
+[15.787169] (-) TimerEvent: {}
+[15.887553] (-) TimerEvent: {}
+[15.987930] (-) TimerEvent: {}
+[16.088330] (-) TimerEvent: {}
+[16.188713] (-) TimerEvent: {}
+[16.289111] (-) TimerEvent: {}
+[16.389501] (-) TimerEvent: {}
+[16.489887] (-) TimerEvent: {}
+[16.590278] (-) TimerEvent: {}
+[16.690658] (-) TimerEvent: {}
+[16.791038] (-) TimerEvent: {}
+[16.891485] (-) TimerEvent: {}
+[16.991903] (-) TimerEvent: {}
+[17.092334] (-) TimerEvent: {}
+[17.192725] (-) TimerEvent: {}
+[17.293121] (-) TimerEvent: {}
+[17.393513] (-) TimerEvent: {}
+[17.493896] (-) TimerEvent: {}
+[17.594301] (-) TimerEvent: {}
+[17.694709] (-) TimerEvent: {}
+[17.795183] (-) TimerEvent: {}
+[17.895713] (-) TimerEvent: {}
+[17.996388] (-) TimerEvent: {}
+[18.096844] (-) TimerEvent: {}
+[18.127720] (hello_world) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_world_subscriber\x1b[0m\n'}
+[18.196988] (-) TimerEvent: {}
+[18.297506] (-) TimerEvent: {}
+[18.398249] (-) TimerEvent: {}
+[18.499384] (-) TimerEvent: {}
+[18.600080] (-) TimerEvent: {}
+[18.700925] (-) TimerEvent: {}
+[18.801338] (-) TimerEvent: {}
+[18.901733] (-) TimerEvent: {}
+[18.960017] (hello_world) StdoutLine: {'line': b'[100%] Built target hello_world_subscriber\n'}
+[18.983978] (hello_world) CommandEnded: {'returncode': 0}
+[18.984870] (hello_world) JobProgress: {'identifier': 'hello_world', 'progress': 'install'}
+[19.001845] (-) TimerEvent: {}
+[19.010702] (hello_world) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pneumatic8/Documents/ros2_odrive/build/hello_world'], 'cwd': '/home/pneumatic8/Documents/ros2_odrive/build/hello_world', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pneumatic8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pneumatic8/Documents/ros2_odrive/install/odrive_ros2_control/lib:/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pneumatic8', 'OLDPWD': '/home/pneumatic8', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2562', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pneumatic8', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pneumatic8', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/DEECPi5:@/tmp/.ICE-unix/2528,unix/DEECPi5:/tmp/.ICE-unix/2528', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/633cc4f1_734e_4c9e_8afd_097e8b970f06', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YJLUK3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.278', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install/odrive_botwheel_explorer:/home/pneumatic8/Documents/ros2_odrive/install/odrive_ros2_control:/home/pneumatic8/Documents/ros2_odrive/install/odrive_can:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pneumatic8/Documents/ros2_odrive/build/hello_world', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install/odrive_botwheel_explorer:/home/pneumatic8/Documents/ros2_odrive/install/odrive_ros2_control:/home/pneumatic8/Documents/ros2_odrive/install/odrive_can:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[19.038816] (hello_world) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.039183] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/lib/hello_world/hello_world_publisher\n'}
+[19.041907] (hello_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/hello_world/lib/hello_world/hello_world_publisher" to ""\n'}
+[19.042130] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/lib/hello_world/hello_world_subscriber\n'}
+[19.051451] (hello_world) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/hello_world/lib/hello_world/hello_world_subscriber" to ""\n'}
+[19.051770] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/ament_index/resource_index/package_run_dependencies/hello_world\n'}
+[19.051982] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/ament_index/resource_index/parent_prefix_path/hello_world\n'}
+[19.052268] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/environment/ament_prefix_path.sh\n'}
+[19.052436] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/environment/ament_prefix_path.dsv\n'}
+[19.052615] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/environment/path.sh\n'}
+[19.052781] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/environment/path.dsv\n'}
+[19.052953] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/local_setup.bash\n'}
+[19.053140] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/local_setup.sh\n'}
+[19.053333] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/local_setup.zsh\n'}
+[19.053524] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/local_setup.dsv\n'}
+[19.053685] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/package.dsv\n'}
+[19.053912] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/ament_index/resource_index/packages/hello_world\n'}
+[19.054131] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/cmake/hello_worldConfig.cmake\n'}
+[19.054264] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/cmake/hello_worldConfig-version.cmake\n'}
+[19.054427] (hello_world) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/package.xml\n'}
+[19.057649] (hello_world) CommandEnded: {'returncode': 0}
+[19.078293] (hello_world) JobEnded: {'identifier': 'hello_world', 'rc': 0}
+[19.080318] (-) EventReactorShutdown: {}

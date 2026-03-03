@@ -1,0 +1,509 @@
+[0.050s] Invoking command in '/home/pneumatic8/Documents/ros2_odrive/build/hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world -DCMAKE_INSTALL_PREFIX=/home/pneumatic8/Documents/ros2_odrive/install/hello_world
+[0.195s] -- The C compiler identification is GNU 13.3.0
+[0.351s] -- The CXX compiler identification is GNU 13.3.0
+[0.381s] -- Detecting C compiler ABI info
+[0.602s] -- Detecting C compiler ABI info - done
+[0.627s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.627s] -- Detecting C compile features
+[0.629s] -- Detecting C compile features - done
+[0.650s] -- Detecting CXX compiler ABI info
+[0.941s] -- Detecting CXX compiler ABI info - done
+[0.955s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.956s] -- Detecting CXX compile features
+[0.956s] -- Detecting CXX compile features - done
+[0.960s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.253s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.464s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.523s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.552s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.575s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.723s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.735s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.892s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.930s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.972s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.083s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.106s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.347s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.355s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):
+[2.355s]   Cyclic recursion detected while globbing for '*.c':
+[2.355s] 
+[2.355s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.355s] 
+[2.356s] 
+[2.356s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.356s] Call Stack (most recent call first):
+[2.356s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.356s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.356s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.356s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.357s]   CMakeLists.txt:29 (ament_package)
+[2.357s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.357s] [0m
+[2.360s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):
+[2.361s]   Cyclic recursion detected while globbing for '*.cc':
+[2.361s] 
+[2.361s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.361s] 
+[2.361s] 
+[2.361s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.361s] Call Stack (most recent call first):
+[2.361s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.362s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.362s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.362s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.362s]   CMakeLists.txt:29 (ament_package)
+[2.365s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.365s] [0m
+[2.366s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):
+[2.366s]   Cyclic recursion detected while globbing for '*.cpp':
+[2.366s] 
+[2.366s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.366s] 
+[2.366s] 
+[2.366s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.368s] Call Stack (most recent call first):
+[2.368s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.368s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.370s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.371s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.371s]   CMakeLists.txt:29 (ament_package)
+[2.371s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.371s] [0m
+[2.374s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):
+[2.374s]   Cyclic recursion detected while globbing for '*.cxx':
+[2.374s] 
+[2.374s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.374s] 
+[2.374s] 
+[2.374s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.375s] Call Stack (most recent call first):
+[2.375s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.375s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.375s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.375s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.375s]   CMakeLists.txt:29 (ament_package)
+[2.375s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.376s] [0m
+[2.381s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):
+[2.381s]   Cyclic recursion detected while globbing for '*.h':
+[2.381s] 
+[2.382s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.382s] 
+[2.382s] 
+[2.382s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.382s] Call Stack (most recent call first):
+[2.382s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.382s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.382s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.383s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.383s]   CMakeLists.txt:29 (ament_package)
+[2.383s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.383s] [0m
+[2.388s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):
+[2.388s]   Cyclic recursion detected while globbing for '*.hh':
+[2.388s] 
+[2.388s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.388s] 
+[2.388s] 
+[2.389s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.389s] Call Stack (most recent call first):
+[2.389s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.389s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.389s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.389s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.389s]   CMakeLists.txt:29 (ament_package)
+[2.389s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.389s] [0m
+[2.393s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):
+[2.393s]   Cyclic recursion detected while globbing for '*.hpp':
+[2.393s] 
+[2.393s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.393s] 
+[2.393s] 
+[2.393s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.393s] Call Stack (most recent call first):
+[2.394s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.394s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.394s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.394s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.394s]   CMakeLists.txt:29 (ament_package)
+[2.394s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.394s] [0m
+[2.400s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:17 (file):
+[2.400s]   Cyclic recursion detected while globbing for '*.hxx':
+[2.400s] 
+[2.400s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.400s] 
+[2.400s] 
+[2.400s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.400s] Call Stack (most recent call first):
+[2.400s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.400s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.401s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.401s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.401s]   CMakeLists.txt:29 (ament_package)
+[2.401s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.401s] [0m
+[2.401s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.401s] -- Configured cppcheck include dirs: 
+[2.401s] -- Configured cppcheck exclude dirs and/or files: 
+[2.408s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):
+[2.408s]   Cyclic recursion detected while globbing for '*.c':
+[2.408s] 
+[2.408s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.409s] 
+[2.409s] 
+[2.409s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.409s] Call Stack (most recent call first):
+[2.409s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.409s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.409s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.409s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.409s]   CMakeLists.txt:29 (ament_package)
+[2.409s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.409s] [0m
+[2.410s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):
+[2.410s]   Cyclic recursion detected while globbing for '*.cc':
+[2.411s] 
+[2.411s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.411s] 
+[2.411s] 
+[2.411s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.411s] Call Stack (most recent call first):
+[2.411s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.411s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.411s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.411s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.411s]   CMakeLists.txt:29 (ament_package)
+[2.412s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.412s] [0m
+[2.416s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):
+[2.416s]   Cyclic recursion detected while globbing for '*.cpp':
+[2.416s] 
+[2.416s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.416s] 
+[2.416s] 
+[2.417s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.417s] Call Stack (most recent call first):
+[2.417s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.417s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.417s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.417s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.417s]   CMakeLists.txt:29 (ament_package)
+[2.417s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.417s] [0m
+[2.425s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):
+[2.426s]   Cyclic recursion detected while globbing for '*.cxx':
+[2.430s] 
+[2.431s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.432s] 
+[2.433s] 
+[2.433s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.434s] Call Stack (most recent call first):
+[2.434s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.434s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.434s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.434s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.435s]   CMakeLists.txt:29 (ament_package)
+[2.435s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.435s] [0m
+[2.435s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):
+[2.435s]   Cyclic recursion detected while globbing for '*.h':
+[2.436s] 
+[2.436s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.436s] 
+[2.436s] 
+[2.436s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.436s] Call Stack (most recent call first):
+[2.436s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.436s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.437s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.438s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.439s]   CMakeLists.txt:29 (ament_package)
+[2.439s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.440s] [0m
+[2.443s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):
+[2.443s]   Cyclic recursion detected while globbing for '*.hh':
+[2.443s] 
+[2.443s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.443s] 
+[2.443s] 
+[2.444s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.444s] Call Stack (most recent call first):
+[2.444s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.444s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.444s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.444s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.444s]   CMakeLists.txt:29 (ament_package)
+[2.445s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.445s] [0m
+[2.451s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):
+[2.452s]   Cyclic recursion detected while globbing for '*.hpp':
+[2.452s] 
+[2.452s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.452s] 
+[2.452s] 
+[2.452s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.452s] Call Stack (most recent call first):
+[2.452s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.452s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.452s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.453s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.453s]   CMakeLists.txt:29 (ament_package)
+[2.453s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.453s] [0m
+[2.455s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_cpplint/cmake/ament_cmake_cpplint_lint_hook.cmake:15 (file):
+[2.456s]   Cyclic recursion detected while globbing for '*.hxx':
+[2.456s] 
+[2.456s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.456s] 
+[2.456s] 
+[2.457s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.457s] -- Configured cpplint exclude dirs and/or files: 
+[2.457s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.457s] Call Stack (most recent call first):
+[2.458s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.458s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.458s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.458s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.458s]   CMakeLists.txt:29 (ament_package)
+[2.458s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.458s] [0m
+[2.465s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_flake8/cmake/ament_cmake_flake8_lint_hook.cmake:15 (file):
+[2.465s]   Cyclic recursion detected while globbing for '*.py':
+[2.465s] 
+[2.466s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.466s] 
+[2.466s] 
+[2.466s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.466s] Call Stack (most recent call first):
+[2.466s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.466s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.466s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.466s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.467s]   CMakeLists.txt:29 (ament_package)
+[2.467s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.467s] [0m
+[2.467s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.467s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.472s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmake_lint_hook.cmake:15 (file):
+[2.472s]   Cyclic recursion detected while globbing for 'CMakeLists.txt':
+[2.472s] 
+[2.472s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.472s] 
+[2.473s] 
+[2.473s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.473s] Call Stack (most recent call first):
+[2.473s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.473s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.473s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.473s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.473s]   CMakeLists.txt:29 (ament_package)
+[2.473s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.473s] [0m
+[2.477s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake/ament_cmake_lint_cmake_lint_hook.cmake:15 (file):
+[2.477s]   Cyclic recursion detected while globbing for '*.cmake':
+[2.477s] 
+[2.477s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.477s] 
+[2.477s] 
+[2.477s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.477s] Call Stack (most recent call first):
+[2.477s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.477s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.477s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.478s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.478s]   CMakeLists.txt:29 (ament_package)
+[2.478s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.478s] [0m
+[2.478s] -- Added test 'lint_cmake' to check CMake code style
+[2.485s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_pep257/cmake/ament_cmake_pep257_lint_hook.cmake:15 (file):
+[2.485s]   Cyclic recursion detected while globbing for '*.py':
+[2.485s] 
+[2.485s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.485s] 
+[2.485s] 
+[2.485s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.485s] Call Stack (most recent call first):
+[2.485s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.486s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.486s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.486s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.486s]   CMakeLists.txt:29 (ament_package)
+[2.486s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.486s] [0m
+[2.486s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.494s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):
+[2.494s]   Cyclic recursion detected while globbing for '*.c':
+[2.494s] 
+[2.494s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.494s] 
+[2.494s] 
+[2.494s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.494s] Call Stack (most recent call first):
+[2.494s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.495s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.495s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.495s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.495s]   CMakeLists.txt:29 (ament_package)
+[2.495s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.495s] [0m
+[2.495s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):
+[2.495s]   Cyclic recursion detected while globbing for '*.cc':
+[2.495s] 
+[2.495s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.496s] 
+[2.496s] 
+[2.496s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.496s] Call Stack (most recent call first):
+[2.496s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.496s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.496s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.496s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.496s]   CMakeLists.txt:29 (ament_package)
+[2.496s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.496s] [0m
+[2.500s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):
+[2.500s]   Cyclic recursion detected while globbing for '*.cpp':
+[2.501s] 
+[2.501s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.501s] 
+[2.501s] 
+[2.501s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.501s] Call Stack (most recent call first):
+[2.501s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.501s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.501s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.502s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.502s]   CMakeLists.txt:29 (ament_package)
+[2.502s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.502s] [0m
+[2.505s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):
+[2.505s]   Cyclic recursion detected while globbing for '*.cxx':
+[2.505s] 
+[2.505s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.505s] 
+[2.505s] 
+[2.506s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.506s] Call Stack (most recent call first):
+[2.506s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.506s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.506s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.506s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.506s]   CMakeLists.txt:29 (ament_package)
+[2.506s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.506s] [0m
+[2.509s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):
+[2.509s]   Cyclic recursion detected while globbing for '*.h':
+[2.510s] 
+[2.510s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.510s] 
+[2.510s] 
+[2.510s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.510s] Call Stack (most recent call first):
+[2.510s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.510s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.510s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.510s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.510s]   CMakeLists.txt:29 (ament_package)
+[2.510s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.511s] [0m
+[2.514s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):
+[2.514s]   Cyclic recursion detected while globbing for '*.hh':
+[2.514s] 
+[2.514s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.514s] 
+[2.514s] 
+[2.514s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.514s] Call Stack (most recent call first):
+[2.514s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.514s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.515s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.515s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.515s]   CMakeLists.txt:29 (ament_package)
+[2.515s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.515s] [0m
+[2.518s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):
+[2.518s]   Cyclic recursion detected while globbing for '*.hpp':
+[2.518s] 
+[2.518s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.519s] 
+[2.519s] 
+[2.519s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.519s] Call Stack (most recent call first):
+[2.520s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.521s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.521s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.522s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.522s]   CMakeLists.txt:29 (ament_package)
+[2.522s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.523s] [0m
+[2.528s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify_lint_hook.cmake:15 (file):
+[2.529s]   Cyclic recursion detected while globbing for '*.hxx':
+[2.529s] 
+[2.530s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.530s] 
+[2.530s] 
+[2.530s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.531s] Call Stack (most recent call first):
+[2.531s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.531s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.531s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.531s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.531s]   CMakeLists.txt:29 (ament_package)
+[2.532s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.532s] [0m
+[2.532s] -- Added test 'uncrustify' to check C / C++ code style
+[2.532s] -- Configured uncrustify additional arguments: 
+[2.540s] -- Added test 'xmllint' to check XML markup files
+[2.540s] [33mCMake Warning (dev) at /opt/ros/jazzy/share/ament_cmake_xmllint/cmake/ament_cmake_xmllint_lint_hook.cmake:15 (file):
+[2.540s]   Cyclic recursion detected while globbing for '*.xml':
+[2.540s] 
+[2.540s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world
+[2.540s] 
+[2.541s] 
+[2.541s]   /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world/_codeql_detected_source_root
+[2.541s] Call Stack (most recent call first):
+[2.541s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.541s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[2.541s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.541s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[2.541s]   CMakeLists.txt:29 (ament_package)
+[2.541s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.541s] [0m
+[2.542s] -- Configuring done (2.5s)
+[2.570s] -- Generating done (0.0s)
+[2.579s] -- Build files have been written to: /home/pneumatic8/Documents/ros2_odrive/build/hello_world
+[2.604s] Invoked command in '/home/pneumatic8/Documents/ros2_odrive/build/hello_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pneumatic8/Documents/ros2_odrive/src/Ex_hello_world -DCMAKE_INSTALL_PREFIX=/home/pneumatic8/Documents/ros2_odrive/install/hello_world
+[2.607s] Invoking command in '/home/pneumatic8/Documents/ros2_odrive/build/hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pneumatic8/Documents/ros2_odrive/build/hello_world -- -j4 -l4
+[2.757s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_world_publisher.dir/src/hello_world_node.cpp.o[0m
+[2.758s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_world_subscriber.dir/src/subscriber_node.cpp.o[0m
+[12.560s] [ 75%] [32m[1mLinking CXX executable hello_world_publisher[0m
+[13.170s] [ 75%] Built target hello_world_publisher
+[18.125s] [100%] [32m[1mLinking CXX executable hello_world_subscriber[0m
+[18.957s] [100%] Built target hello_world_subscriber
+[18.981s] Invoked command in '/home/pneumatic8/Documents/ros2_odrive/build/hello_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pneumatic8/Documents/ros2_odrive/build/hello_world -- -j4 -l4
+[19.013s] Invoking command in '/home/pneumatic8/Documents/ros2_odrive/build/hello_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pneumatic8/Documents/ros2_odrive/build/hello_world
+[19.036s] -- Install configuration: ""
+[19.036s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/lib/hello_world/hello_world_publisher
+[19.039s] -- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/hello_world/lib/hello_world/hello_world_publisher" to ""
+[19.039s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/lib/hello_world/hello_world_subscriber
+[19.048s] -- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/hello_world/lib/hello_world/hello_world_subscriber" to ""
+[19.048s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/ament_index/resource_index/package_run_dependencies/hello_world
+[19.049s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/ament_index/resource_index/parent_prefix_path/hello_world
+[19.049s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/environment/ament_prefix_path.sh
+[19.049s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/environment/ament_prefix_path.dsv
+[19.049s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/environment/path.sh
+[19.049s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/environment/path.dsv
+[19.050s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/local_setup.bash
+[19.050s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/local_setup.sh
+[19.050s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/local_setup.zsh
+[19.050s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/local_setup.dsv
+[19.050s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/package.dsv
+[19.050s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/ament_index/resource_index/packages/hello_world
+[19.051s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/cmake/hello_worldConfig.cmake
+[19.051s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/cmake/hello_worldConfig-version.cmake
+[19.051s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/hello_world/share/hello_world/package.xml
+[19.055s] Invoked command in '/home/pneumatic8/Documents/ros2_odrive/build/hello_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pneumatic8/Documents/ros2_odrive/build/hello_world

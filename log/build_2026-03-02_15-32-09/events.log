@@ -1,0 +1,832 @@
+[0.000000] (-) TimerEvent: {}
+[0.000606] (-) JobUnselected: {'identifier': 'hello_world'}
+[0.000866] (-) JobUnselected: {'identifier': 'odrive_botwheel_explorer'}
+[0.001668] (-) JobUnselected: {'identifier': 'odrive_ros2_control'}
+[0.002108] (odrive_can) JobQueued: {'identifier': 'odrive_can', 'dependencies': OrderedDict()}
+[0.002252] (odrive_can) JobStarted: {'identifier': 'odrive_can'}
+[0.022895] (odrive_can) JobProgress: {'identifier': 'odrive_can', 'progress': 'cmake'}
+[0.023598] (odrive_can) Command: {'cmd': ['/usr/bin/cmake', '/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node', '-DCMAKE_INSTALL_PREFIX=/home/pneumatic8/Documents/ros2_odrive/install/odrive_can'], 'cwd': '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pneumatic8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pneumatic8', 'OLDPWD': '/home/pneumatic8', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2625', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pneumatic8', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pneumatic8', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/DEECPi5:@/tmp/.ICE-unix/2596,unix/DEECPi5:/tmp/.ICE-unix/2596', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/86a7c8b4_939a_4e53_9a21_95ab52852061', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PYXHL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.139', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install/hello_world:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install/hello_world:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099643] (-) TimerEvent: {}
+[0.157721] (odrive_can) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199761] (-) TimerEvent: {}
+[0.270161] (odrive_can) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.299136] (odrive_can) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299826] (-) TimerEvent: {}
+[0.400113] (-) TimerEvent: {}
+[0.487839] (odrive_can) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.500210] (-) TimerEvent: {}
+[0.508223] (odrive_can) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.509548] (odrive_can) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.509982] (odrive_can) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.526256] (odrive_can) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600341] (-) TimerEvent: {}
+[0.701530] (-) TimerEvent: {}
+[0.803149] (-) TimerEvent: {}
+[0.851509] (odrive_can) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.866950] (odrive_can) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.868973] (odrive_can) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.869243] (odrive_can) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.874577] (odrive_can) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.903248] (-) TimerEvent: {}
+[1.004417] (-) TimerEvent: {}
+[1.104825] (-) TimerEvent: {}
+[1.147862] (odrive_can) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.204924] (-) TimerEvent: {}
+[1.305269] (-) TimerEvent: {}
+[1.338017] (odrive_can) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.391460] (odrive_can) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.405361] (-) TimerEvent: {}
+[1.415079] (odrive_can) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.438510] (odrive_can) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.464695] (odrive_can) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.505480] (-) TimerEvent: {}
+[1.571195] (odrive_can) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.575256] (odrive_can) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.605802] (-) TimerEvent: {}
+[1.707447] (-) TimerEvent: {}
+[1.762487] (odrive_can) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.794898] (odrive_can) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.807570] (-) TimerEvent: {}
+[1.843410] (odrive_can) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.907777] (-) TimerEvent: {}
+[1.969741] (odrive_can) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.991411] (odrive_can) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.995931] (odrive_can) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[2.007866] (-) TimerEvent: {}
+[2.108213] (-) TimerEvent: {}
+[2.208584] (-) TimerEvent: {}
+[2.308969] (-) TimerEvent: {}
+[2.409348] (-) TimerEvent: {}
+[2.509849] (-) TimerEvent: {}
+[2.610299] (-) TimerEvent: {}
+[2.710751] (-) TimerEvent: {}
+[2.811121] (-) TimerEvent: {}
+[2.911448] (-) TimerEvent: {}
+[3.011862] (-) TimerEvent: {}
+[3.053307] (odrive_can) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.111980] (-) TimerEvent: {}
+[3.212373] (-) TimerEvent: {}
+[3.312811] (-) TimerEvent: {}
+[3.413161] (-) TimerEvent: {}
+[3.513555] (-) TimerEvent: {}
+[3.613929] (-) TimerEvent: {}
+[3.714420] (-) TimerEvent: {}
+[3.814783] (-) TimerEvent: {}
+[3.915128] (-) TimerEvent: {}
+[4.015450] (-) TimerEvent: {}
+[4.115833] (-) TimerEvent: {}
+[4.216225] (-) TimerEvent: {}
+[4.267702] (odrive_can) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.316352] (-) TimerEvent: {}
+[4.416740] (-) TimerEvent: {}
+[4.517186] (-) TimerEvent: {}
+[4.617629] (-) TimerEvent: {}
+[4.718128] (-) TimerEvent: {}
+[4.759358] (odrive_can) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.763510] (odrive_can) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.818217] (-) TimerEvent: {}
+[4.918595] (-) TimerEvent: {}
+[4.985986] (odrive_can) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[5.018713] (-) TimerEvent: {}
+[5.119057] (-) TimerEvent: {}
+[5.219442] (-) TimerEvent: {}
+[5.319788] (-) TimerEvent: {}
+[5.420155] (-) TimerEvent: {}
+[5.520549] (-) TimerEvent: {}
+[5.621014] (-) TimerEvent: {}
+[5.721510] (-) TimerEvent: {}
+[5.765528] (odrive_can) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.821613] (-) TimerEvent: {}
+[5.836925] (odrive_can) StdoutLine: {'line': b'-- Configuring done (5.8s)\n'}
+[5.921739] (-) TimerEvent: {}
+[5.931687] (odrive_can) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.004629] (odrive_can) StdoutLine: {'line': b'-- Build files have been written to: /home/pneumatic8/Documents/ros2_odrive/build/odrive_can\n'}
+[6.022032] (-) TimerEvent: {}
+[6.053388] (odrive_can) CommandEnded: {'returncode': 0}
+[6.054701] (odrive_can) JobProgress: {'identifier': 'odrive_can', 'progress': 'build'}
+[6.057026] (odrive_can) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can', '--', '-j4', '-l4'], 'cwd': '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pneumatic8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pneumatic8', 'OLDPWD': '/home/pneumatic8', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2625', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pneumatic8', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pneumatic8', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/DEECPi5:@/tmp/.ICE-unix/2596,unix/DEECPi5:/tmp/.ICE-unix/2596', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/86a7c8b4_939a_4e53_9a21_95ab52852061', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PYXHL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.139', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install/hello_world:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install/hello_world:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.122189] (-) TimerEvent: {}
+[6.163489] (odrive_can) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.181684] (odrive_can) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_odrive_can\n'}
+[6.222304] (-) TimerEvent: {}
+[6.322698] (-) TimerEvent: {}
+[6.423069] (-) TimerEvent: {}
+[6.523479] (-) TimerEvent: {}
+[6.568495] (odrive_can) StdoutLine: {'line': b'running egg_info\n'}
+[6.570093] (odrive_can) StdoutLine: {'line': b'creating odrive_can.egg-info\n'}
+[6.609640] (odrive_can) StdoutLine: {'line': b'writing odrive_can.egg-info/PKG-INFO\n'}
+[6.611465] (odrive_can) StdoutLine: {'line': b'writing dependency_links to odrive_can.egg-info/dependency_links.txt\n'}
+[6.611939] (odrive_can) StdoutLine: {'line': b'writing top-level names to odrive_can.egg-info/top_level.txt\n'}
+[6.612103] (odrive_can) StdoutLine: {'line': b"writing manifest file 'odrive_can.egg-info/SOURCES.txt'\n"}
+[6.623624] (-) TimerEvent: {}
+[6.646127] (odrive_can) StdoutLine: {'line': b'[  1%] Built target odrive_can__rosidl_generator_type_description\n'}
+[6.676463] (odrive_can) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.701686] (odrive_can) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.723821] (-) TimerEvent: {}
+[6.767580] (odrive_can) StdoutLine: {'line': b"reading manifest file 'odrive_can.egg-info/SOURCES.txt'\n"}
+[6.773330] (odrive_can) StdoutLine: {'line': b"writing manifest file 'odrive_can.egg-info/SOURCES.txt'\n"}
+[6.827784] (-) TimerEvent: {}
+[6.929594] (-) TimerEvent: {}
+[7.016456] (odrive_can) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_odrive_can_egg\n'}
+[7.031509] (-) TimerEvent: {}
+[7.131927] (-) TimerEvent: {}
+[7.238057] (-) TimerEvent: {}
+[7.338767] (-) TimerEvent: {}
+[7.439137] (-) TimerEvent: {}
+[7.539480] (-) TimerEvent: {}
+[7.639853] (-) TimerEvent: {}
+[7.741785] (-) TimerEvent: {}
+[7.842691] (-) TimerEvent: {}
+[7.888530] (odrive_can) StdoutLine: {'line': b'[  4%] Built target odrive_can__cpp\n'}
+[7.943251] (-) TimerEvent: {}
+[8.022847] (odrive_can) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/control_message__type_support.c.o\x1b[0m\n'}
+[8.025877] (odrive_can) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/control_message__functions.c.o\x1b[0m\n'}
+[8.026942] (odrive_can) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/control_message__description.c.o\x1b[0m\n'}
+[8.028406] (odrive_can) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/controller_status__description.c.o\x1b[0m\n'}
+[8.043538] (-) TimerEvent: {}
+[8.143492] (odrive_can) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/controller_status__functions.c.o\x1b[0m\n'}
+[8.144162] (-) TimerEvent: {}
+[8.157644] (odrive_can) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/controller_status__type_support.c.o\x1b[0m\n'}
+[8.191941] (odrive_can) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/o_drive_status__description.c.o\x1b[0m\n'}
+[8.244337] (-) TimerEvent: {}
+[8.285912] (odrive_can) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/o_drive_status__functions.c.o\x1b[0m\n'}
+[8.344651] (-) TimerEvent: {}
+[8.375991] (odrive_can) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/o_drive_status__type_support.c.o\x1b[0m\n'}
+[8.394515] (odrive_can) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/srv/detail/axis_state__description.c.o\x1b[0m\n'}
+[8.412562] (odrive_can) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/srv/detail/axis_state__functions.c.o\x1b[0m\n'}
+[8.445071] (-) TimerEvent: {}
+[8.485141] (odrive_can) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/srv/detail/axis_state__type_support.c.o\x1b[0m\n'}
+[8.546471] (-) TimerEvent: {}
+[8.630424] (odrive_can) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library libodrive_can__rosidl_generator_c.so\x1b[0m\n'}
+[8.646582] (-) TimerEvent: {}
+[8.717787] (odrive_can) StdoutLine: {'line': b'[ 23%] Built target odrive_can__rosidl_generator_c\n'}
+[8.742867] (odrive_can) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.744603] (odrive_can) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.745990] (odrive_can) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.746746] (-) TimerEvent: {}
+[8.778706] (odrive_can) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.846943] (-) TimerEvent: {}
+[8.948482] (-) TimerEvent: {}
+[9.049144] (-) TimerEvent: {}
+[9.152699] (-) TimerEvent: {}
+[9.253197] (-) TimerEvent: {}
+[9.354031] (-) TimerEvent: {}
+[9.458721] (-) TimerEvent: {}
+[9.559494] (-) TimerEvent: {}
+[9.642546] (odrive_can) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_c.dir/rosidl_typesupport_c/odrive_can/msg/control_message__type_support.cpp.o\x1b[0m\n'}
+[9.659816] (-) TimerEvent: {}
+[9.766065] (-) TimerEvent: {}
+[9.786305] (odrive_can) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_c.dir/rosidl_typesupport_c/odrive_can/msg/controller_status__type_support.cpp.o\x1b[0m\n'}
+[9.839568] (odrive_can) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odrive_can/msg/detail/control_message__type_support.c.o\x1b[0m\n'}
+[9.869489] (-) TimerEvent: {}
+[9.924833] (odrive_can) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_c.dir/rosidl_typesupport_c/odrive_can/msg/o_drive_status__type_support.cpp.o\x1b[0m\n'}
+[9.942641] (odrive_can) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odrive_can/msg/detail/control_message__type_support.cpp.o\x1b[0m\n'}
+[9.966554] (odrive_can) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odrive_can/msg/detail/controller_status__type_support.c.o\x1b[0m\n'}
+[9.969687] (-) TimerEvent: {}
+[10.053472] (odrive_can) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_c.dir/rosidl_typesupport_c/odrive_can/srv/axis_state__type_support.cpp.o\x1b[0m\n'}
+[10.070536] (-) TimerEvent: {}
+[10.098138] (odrive_can) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odrive_can/msg/detail/o_drive_status__type_support.c.o\x1b[0m\n'}
+[10.098521] (odrive_can) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odrive_can/msg/detail/dds_fastrtps/control_message__type_support.cpp.o\x1b[0m\n'}
+[10.170679] (-) TimerEvent: {}
+[10.204336] (odrive_can) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libodrive_can__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.217450] (odrive_can) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odrive_can/srv/detail/axis_state__type_support.c.o\x1b[0m\n'}
+[10.271009] (-) TimerEvent: {}
+[10.378248] (-) TimerEvent: {}
+[10.449753] (odrive_can) StdoutLine: {'line': b'[ 44%] Built target odrive_can__rosidl_typesupport_c\n'}
+[10.478420] (-) TimerEvent: {}
+[10.487327] (odrive_can) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odrive_can/msg/detail/dds_fastrtps/controller_status__type_support.cpp.o\x1b[0m\n'}
+[10.513232] (odrive_can) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking C shared library libodrive_can__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.579535] (-) TimerEvent: {}
+[10.617125] (odrive_can) StdoutLine: {'line': b'[ 47%] Built target odrive_can__rosidl_typesupport_introspection_c\n'}
+[10.642488] (odrive_can) StdoutLine: {'line': b'[ 49%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.680496] (-) TimerEvent: {}
+[10.783829] (-) TimerEvent: {}
+[10.885932] (-) TimerEvent: {}
+[10.989496] (-) TimerEvent: {}
+[11.072602] (odrive_can) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odrive_can/msg/detail/controller_status__type_support.cpp.o\x1b[0m\n'}
+[11.089701] (-) TimerEvent: {}
+[11.194734] (-) TimerEvent: {}
+[11.295276] (-) TimerEvent: {}
+[11.396423] (-) TimerEvent: {}
+[11.497877] (-) TimerEvent: {}
+[11.602297] (-) TimerEvent: {}
+[11.702615] (odrive_can) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odrive_can/msg/control_message__type_support.cpp.o\x1b[0m\n'}
+[11.703084] (-) TimerEvent: {}
+[11.804614] (-) TimerEvent: {}
+[11.914254] (-) TimerEvent: {}
+[11.991549] (odrive_can) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.016994] (-) TimerEvent: {}
+[12.117800] (-) TimerEvent: {}
+[12.218946] (-) TimerEvent: {}
+[12.322705] (-) TimerEvent: {}
+[12.423352] (-) TimerEvent: {}
+[12.444678] (odrive_can) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odrive_can/msg/detail/dds_fastrtps/o_drive_status__type_support.cpp.o\x1b[0m\n'}
+[12.501874] (odrive_can) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odrive_can/msg/detail/o_drive_status__type_support.cpp.o\x1b[0m\n'}
+[12.523490] (-) TimerEvent: {}
+[12.624236] (-) TimerEvent: {}
+[12.726526] (-) TimerEvent: {}
+[12.829526] (-) TimerEvent: {}
+[12.930256] (-) TimerEvent: {}
+[13.033892] (-) TimerEvent: {}
+[13.091608] (odrive_can) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odrive_can/msg/controller_status__type_support.cpp.o\x1b[0m\n'}
+[13.134027] (-) TimerEvent: {}
+[13.238291] (-) TimerEvent: {}
+[13.339008] (-) TimerEvent: {}
+[13.443505] (-) TimerEvent: {}
+[13.523108] (odrive_can) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odrive_can/srv/detail/axis_state__type_support.cpp.o\x1b[0m\n'}
+[13.543671] (-) TimerEvent: {}
+[13.644428] (-) TimerEvent: {}
+[13.651868] (odrive_can) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odrive_can/msg/detail/control_message__type_support_c.cpp.o\x1b[0m\n'}
+[13.744756] (-) TimerEvent: {}
+[13.848841] (-) TimerEvent: {}
+[13.949972] (-) TimerEvent: {}
+[14.018696] (odrive_can) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odrive_can/srv/detail/dds_fastrtps/axis_state__type_support.cpp.o\x1b[0m\n'}
+[14.050196] (-) TimerEvent: {}
+[14.155514] (-) TimerEvent: {}
+[14.256011] (-) TimerEvent: {}
+[14.334456] (odrive_can) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odrive_can/msg/o_drive_status__type_support.cpp.o\x1b[0m\n'}
+[14.356180] (-) TimerEvent: {}
+[14.456813] (-) TimerEvent: {}
+[14.557604] (-) TimerEvent: {}
+[14.662942] (-) TimerEvent: {}
+[14.763603] (-) TimerEvent: {}
+[14.866594] (-) TimerEvent: {}
+[14.967197] (-) TimerEvent: {}
+[15.069687] (-) TimerEvent: {}
+[15.100706] (odrive_can) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libodrive_can__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[15.174953] (-) TimerEvent: {}
+[15.281540] (-) TimerEvent: {}
+[15.382597] (-) TimerEvent: {}
+[15.455741] (odrive_can) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odrive_can/msg/detail/controller_status__type_support_c.cpp.o\x1b[0m\n'}
+[15.462348] (odrive_can) StdoutLine: {'line': b'[ 66%] Built target odrive_can__rosidl_typesupport_introspection_cpp\n'}
+[15.484658] (-) TimerEvent: {}
+[15.515356] (odrive_can) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odrive_can/srv/axis_state__type_support.cpp.o\x1b[0m\n'}
+[15.587124] (-) TimerEvent: {}
+[15.657984] (odrive_can) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odrive_can/msg/detail/o_drive_status__type_support_c.cpp.o\x1b[0m\n'}
+[15.688040] (-) TimerEvent: {}
+[15.792781] (-) TimerEvent: {}
+[15.893362] (-) TimerEvent: {}
+[15.994013] (-) TimerEvent: {}
+[16.097123] (-) TimerEvent: {}
+[16.199436] (-) TimerEvent: {}
+[16.300033] (-) TimerEvent: {}
+[16.401718] (-) TimerEvent: {}
+[16.504795] (-) TimerEvent: {}
+[16.565889] (odrive_can) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libodrive_can__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[16.607723] (-) TimerEvent: {}
+[16.708452] (-) TimerEvent: {}
+[16.809111] (-) TimerEvent: {}
+[16.913341] (-) TimerEvent: {}
+[16.946629] (odrive_can) StdoutLine: {'line': b'[ 71%] Built target odrive_can__rosidl_typesupport_fastrtps_cpp\n'}
+[16.972671] (odrive_can) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odrive_can/srv/detail/axis_state__type_support_c.cpp.o\x1b[0m\n'}
+[16.994881] (odrive_can) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libodrive_can__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[17.013517] (-) TimerEvent: {}
+[17.114062] (-) TimerEvent: {}
+[17.215563] (-) TimerEvent: {}
+[17.319300] (-) TimerEvent: {}
+[17.420113] (-) TimerEvent: {}
+[17.471041] (odrive_can) StdoutLine: {'line': b'[ 73%] Built target odrive_can__rosidl_typesupport_cpp\n'}
+[17.523722] (-) TimerEvent: {}
+[17.592422] (odrive_can) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can_node.dir/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_base/src/socket_can.cpp.o\x1b[0m\n'}
+[17.600548] (odrive_can) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can_node.dir/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_base/src/epoll_event_loop.cpp.o\x1b[0m\n'}
+[17.623942] (-) TimerEvent: {}
+[17.706002] (odrive_can) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can_node.dir/src/odrive_can_node.cpp.o\x1b[0m\n'}
+[17.726530] (-) TimerEvent: {}
+[17.827203] (-) TimerEvent: {}
+[17.927823] (-) TimerEvent: {}
+[18.028518] (-) TimerEvent: {}
+[18.132004] (-) TimerEvent: {}
+[18.232753] (-) TimerEvent: {}
+[18.333413] (-) TimerEvent: {}
+[18.433957] (-) TimerEvent: {}
+[18.536504] (-) TimerEvent: {}
+[18.637088] (-) TimerEvent: {}
+[18.738571] (-) TimerEvent: {}
+[18.839080] (-) TimerEvent: {}
+[18.912682] (odrive_can) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libodrive_can__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[18.940636] (-) TimerEvent: {}
+[19.041611] (-) TimerEvent: {}
+[19.113703] (odrive_can) StdoutLine: {'line': b'[ 79%] Built target odrive_can__rosidl_typesupport_fastrtps_c\n'}
+[19.141795] (-) TimerEvent: {}
+[19.185575] (odrive_can) StdoutLine: {'line': b'[ 79%] Built target odrive_can\n'}
+[19.239269] (odrive_can) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[19.241930] (-) TimerEvent: {}
+[19.345519] (-) TimerEvent: {}
+[19.446140] (-) TimerEvent: {}
+[19.548576] (-) TimerEvent: {}
+[19.649065] (-) TimerEvent: {}
+[19.749863] (-) TimerEvent: {}
+[19.850571] (-) TimerEvent: {}
+[19.954503] (-) TimerEvent: {}
+[20.005674] (odrive_can) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/odrive_can_node.dir/src/main.cpp.o\x1b[0m\n'}
+[20.054619] (-) TimerEvent: {}
+[20.155071] (-) TimerEvent: {}
+[20.257296] (-) TimerEvent: {}
+[20.360880] (-) TimerEvent: {}
+[20.461298] (-) TimerEvent: {}
+[20.561743] (-) TimerEvent: {}
+[20.662215] (-) TimerEvent: {}
+[20.763233] (-) TimerEvent: {}
+[20.863942] (-) TimerEvent: {}
+[20.974026] (-) TimerEvent: {}
+[21.035857] (odrive_can) StdoutLine: {'line': b'[ 82%] Built target odrive_can__py\n'}
+[21.074215] (-) TimerEvent: {}
+[21.094736] (odrive_can) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_py.dir/rosidl_generator_py/odrive_can/msg/_control_message_s.c.o\x1b[0m\n'}
+[21.105932] (odrive_can) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_py.dir/rosidl_generator_py/odrive_can/msg/_controller_status_s.c.o\x1b[0m\n'}
+[21.177994] (-) TimerEvent: {}
+[21.278734] (-) TimerEvent: {}
+[21.379504] (-) TimerEvent: {}
+[21.480191] (-) TimerEvent: {}
+[21.545349] (odrive_can) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_py.dir/rosidl_generator_py/odrive_can/msg/_o_drive_status_s.c.o\x1b[0m\n'}
+[21.561854] (odrive_can) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_py.dir/rosidl_generator_py/odrive_can/srv/_axis_state_s.c.o\x1b[0m\n'}
+[21.580428] (-) TimerEvent: {}
+[21.689268] (-) TimerEvent: {}
+[21.789789] (-) TimerEvent: {}
+[21.890350] (-) TimerEvent: {}
+[21.992077] (-) TimerEvent: {}
+[22.095582] (-) TimerEvent: {}
+[22.196450] (-) TimerEvent: {}
+[22.226062] (odrive_can) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library libodrive_can__rosidl_generator_py.so\x1b[0m\n'}
+[22.296680] (-) TimerEvent: {}
+[22.372309] (odrive_can) StdoutLine: {'line': b'[ 89%] Built target odrive_can__rosidl_generator_py\n'}
+[22.397822] (-) TimerEvent: {}
+[22.443461] (odrive_can) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/odrive_can_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/odrive_can/_odrive_can_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[22.453555] (odrive_can) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/odrive_can_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/odrive_can/_odrive_can_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[22.497975] (-) TimerEvent: {}
+[22.598800] (-) TimerEvent: {}
+[22.702718] (-) TimerEvent: {}
+[22.784884] (odrive_can) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/odrive_can/odrive_can_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[22.785280] (odrive_can) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/odrive_can/odrive_can_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[22.803498] (-) TimerEvent: {}
+[22.905471] (-) TimerEvent: {}
+[22.925296] (odrive_can) StdoutLine: {'line': b'[ 95%] Built target odrive_can_s__rosidl_typesupport_fastrtps_c\n'}
+[22.953821] (odrive_can) StdoutLine: {'line': b'[ 95%] Built target odrive_can_s__rosidl_typesupport_introspection_c\n'}
+[22.997482] (odrive_can) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/odrive_can_s__rosidl_typesupport_c.dir/rosidl_generator_py/odrive_can/_odrive_can_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[23.005619] (-) TimerEvent: {}
+[23.109067] (-) TimerEvent: {}
+[23.209643] (-) TimerEvent: {}
+[23.305543] (odrive_can) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/odrive_can/odrive_can_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[23.310514] (-) TimerEvent: {}
+[23.410950] (-) TimerEvent: {}
+[23.414967] (odrive_can) StdoutLine: {'line': b'[ 98%] Built target odrive_can_s__rosidl_typesupport_c\n'}
+[23.511081] (-) TimerEvent: {}
+[23.611553] (-) TimerEvent: {}
+[23.711988] (-) TimerEvent: {}
+[23.812439] (-) TimerEvent: {}
+[23.912976] (-) TimerEvent: {}
+[24.013714] (-) TimerEvent: {}
+[24.114161] (-) TimerEvent: {}
+[24.214641] (-) TimerEvent: {}
+[24.315154] (-) TimerEvent: {}
+[24.415635] (-) TimerEvent: {}
+[24.519479] (-) TimerEvent: {}
+[24.619954] (-) TimerEvent: {}
+[24.720468] (-) TimerEvent: {}
+[24.821071] (-) TimerEvent: {}
+[24.921610] (-) TimerEvent: {}
+[25.022124] (-) TimerEvent: {}
+[25.122588] (-) TimerEvent: {}
+[25.223061] (-) TimerEvent: {}
+[25.323612] (-) TimerEvent: {}
+[25.424618] (-) TimerEvent: {}
+[25.525072] (-) TimerEvent: {}
+[25.625537] (-) TimerEvent: {}
+[25.725982] (-) TimerEvent: {}
+[25.826443] (-) TimerEvent: {}
+[25.926911] (-) TimerEvent: {}
+[26.027629] (-) TimerEvent: {}
+[26.128285] (-) TimerEvent: {}
+[26.228865] (-) TimerEvent: {}
+[26.310104] (odrive_can) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ODriveCanNode::\x1b[01;32m\x1b[Kservice_clear_errors_callback\x1b[m\x1b[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.310590] (odrive_can) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:224:89:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.310748] (odrive_can) StderrLine: {'line': b'  224 | void ODriveCanNode::service_clear_errors_callback(\x1b[01;35m\x1b[Kconst std::shared_ptr<Empty::Request> request\x1b[m\x1b[K, std::shared_ptr<Empty::Response> response) {\n'}
+[26.310865] (odrive_can) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[26.311088] (odrive_can) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:224:131:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.311241] (odrive_can) StderrLine: {'line': b'  224 | void ODriveCanNode::service_clear_errors_callback(const std::shared_ptr<Empty::Request> request, \x1b[01;35m\x1b[Kstd::shared_ptr<Empty::Response> response\x1b[m\x1b[K) {\n'}
+[26.311347] (odrive_can) StderrLine: {'line': b'      |                                                                                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[26.328992] (-) TimerEvent: {}
+[26.429468] (-) TimerEvent: {}
+[26.529913] (-) TimerEvent: {}
+[26.630364] (-) TimerEvent: {}
+[26.730824] (-) TimerEvent: {}
+[26.831283] (-) TimerEvent: {}
+[26.931765] (-) TimerEvent: {}
+[27.032270] (-) TimerEvent: {}
+[27.134813] (-) TimerEvent: {}
+[27.235267] (-) TimerEvent: {}
+[27.335737] (-) TimerEvent: {}
+[27.436182] (-) TimerEvent: {}
+[27.536700] (-) TimerEvent: {}
+[27.637155] (-) TimerEvent: {}
+[27.737601] (-) TimerEvent: {}
+[27.838067] (-) TimerEvent: {}
+[27.938487] (-) TimerEvent: {}
+[28.039106] (-) TimerEvent: {}
+[28.144558] (-) TimerEvent: {}
+[28.245235] (-) TimerEvent: {}
+[28.345809] (-) TimerEvent: {}
+[28.446316] (-) TimerEvent: {}
+[28.546912] (-) TimerEvent: {}
+[28.647406] (-) TimerEvent: {}
+[28.747857] (-) TimerEvent: {}
+[28.848293] (-) TimerEvent: {}
+[28.948776] (-) TimerEvent: {}
+[29.049266] (-) TimerEvent: {}
+[29.149864] (-) TimerEvent: {}
+[29.251570] (-) TimerEvent: {}
+[29.352253] (-) TimerEvent: {}
+[29.452838] (-) TimerEvent: {}
+[29.553824] (-) TimerEvent: {}
+[29.654886] (-) TimerEvent: {}
+[29.755308] (-) TimerEvent: {}
+[29.855750] (-) TimerEvent: {}
+[29.956186] (-) TimerEvent: {}
+[30.056641] (-) TimerEvent: {}
+[30.157062] (-) TimerEvent: {}
+[30.257499] (-) TimerEvent: {}
+[30.357938] (-) TimerEvent: {}
+[30.458305] (-) TimerEvent: {}
+[30.558733] (-) TimerEvent: {}
+[30.659115] (-) TimerEvent: {}
+[30.759542] (-) TimerEvent: {}
+[30.859976] (-) TimerEvent: {}
+[30.960435] (-) TimerEvent: {}
+[31.060861] (-) TimerEvent: {}
+[31.161270] (-) TimerEvent: {}
+[31.261720] (-) TimerEvent: {}
+[31.362106] (-) TimerEvent: {}
+[31.462477] (-) TimerEvent: {}
+[31.562869] (-) TimerEvent: {}
+[31.663269] (-) TimerEvent: {}
+[31.763722] (-) TimerEvent: {}
+[31.864075] (-) TimerEvent: {}
+[31.964480] (-) TimerEvent: {}
+[32.064927] (-) TimerEvent: {}
+[32.165442] (-) TimerEvent: {}
+[32.265973] (-) TimerEvent: {}
+[32.366471] (-) TimerEvent: {}
+[32.466907] (-) TimerEvent: {}
+[32.567330] (-) TimerEvent: {}
+[32.655937] (odrive_can) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ODriveCanNode::\x1b[01;32m\x1b[Kdeinit\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.656251] (odrive_can) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:66:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kframe\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.656386] (odrive_can) StderrLine: {'line': b'   66 |         \x1b[01;35m\x1b[Kwrite_le<uint32_t>(ODriveAxisState::AXIS_STATE_IDLE, frame.data)\x1b[m\x1b[K;\n'}
+[32.656502] (odrive_can) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.656599] (odrive_can) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:4\x1b[m\x1b[K:\n'}
+[32.656805] (odrive_can) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/include/byte_swap.hpp:36:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kby argument 2 of type \xe2\x80\x98\x1b[01m\x1b[Kconst unsigned char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K write_le\x1b[m\x1b[K(const T&, const unsigned char*) \x1b[35m\x1b[K[with T = unsigned int]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[32.656937] (odrive_can) StderrLine: {'line': b'   36 | void \x1b[01;36m\x1b[Kwrite_le\x1b[m\x1b[K(const T& val, const unsigned char* buf) {\n'}
+[32.657029] (odrive_can) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.657119] (odrive_can) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:64:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kframe\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[32.657211] (odrive_can) StderrLine: {'line': b'   64 |         struct can_frame \x1b[01;36m\x1b[Kframe\x1b[m\x1b[K;\n'}
+[32.657297] (odrive_can) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[32.657415] (odrive_can) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ODriveCanNode::\x1b[01;32m\x1b[Krequest_clear_errors_callback\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.657514] (odrive_can) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:256:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kframe\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.657607] (odrive_can) StderrLine: {'line': b'  256 |     \x1b[01;35m\x1b[Kwrite_le<uint8_t>(0, frame.data)\x1b[m\x1b[K;\n'}
+[32.657691] (odrive_can) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.657781] (odrive_can) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/include/byte_swap.hpp:36:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kby argument 2 of type \xe2\x80\x98\x1b[01m\x1b[Kconst unsigned char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K write_le\x1b[m\x1b[K(const T&, const unsigned char*) \x1b[35m\x1b[K[with T = unsigned char]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[32.657888] (odrive_can) StderrLine: {'line': b'   36 | void \x1b[01;36m\x1b[Kwrite_le\x1b[m\x1b[K(const T& val, const unsigned char* buf) {\n'}
+[32.657974] (odrive_can) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[32.658057] (odrive_can) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:254:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kframe\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[32.658142] (odrive_can) StderrLine: {'line': b'  254 |     struct can_frame \x1b[01;36m\x1b[Kframe\x1b[m\x1b[K;\n'}
+[32.658224] (odrive_can) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[32.667450] (-) TimerEvent: {}
+[32.767814] (-) TimerEvent: {}
+[32.868250] (-) TimerEvent: {}
+[32.968670] (-) TimerEvent: {}
+[33.069096] (-) TimerEvent: {}
+[33.169530] (-) TimerEvent: {}
+[33.269928] (-) TimerEvent: {}
+[33.370311] (-) TimerEvent: {}
+[33.470707] (-) TimerEvent: {}
+[33.571176] (-) TimerEvent: {}
+[33.671867] (-) TimerEvent: {}
+[33.772281] (-) TimerEvent: {}
+[33.872666] (-) TimerEvent: {}
+[33.973029] (-) TimerEvent: {}
+[34.073421] (-) TimerEvent: {}
+[34.173772] (-) TimerEvent: {}
+[34.274135] (-) TimerEvent: {}
+[34.374576] (-) TimerEvent: {}
+[34.474936] (-) TimerEvent: {}
+[34.575318] (-) TimerEvent: {}
+[34.675842] (-) TimerEvent: {}
+[34.776225] (-) TimerEvent: {}
+[34.876613] (-) TimerEvent: {}
+[34.976976] (-) TimerEvent: {}
+[35.077351] (-) TimerEvent: {}
+[35.177737] (-) TimerEvent: {}
+[35.278100] (-) TimerEvent: {}
+[35.378474] (-) TimerEvent: {}
+[35.478869] (-) TimerEvent: {}
+[35.581498] (-) TimerEvent: {}
+[35.681924] (-) TimerEvent: {}
+[35.782420] (-) TimerEvent: {}
+[35.882789] (-) TimerEvent: {}
+[35.983164] (-) TimerEvent: {}
+[36.083572] (-) TimerEvent: {}
+[36.183935] (-) TimerEvent: {}
+[36.284296] (-) TimerEvent: {}
+[36.384686] (-) TimerEvent: {}
+[36.485068] (-) TimerEvent: {}
+[36.585460] (-) TimerEvent: {}
+[36.685832] (-) TimerEvent: {}
+[36.786199] (-) TimerEvent: {}
+[36.886586] (-) TimerEvent: {}
+[36.986952] (-) TimerEvent: {}
+[37.087295] (-) TimerEvent: {}
+[37.187687] (-) TimerEvent: {}
+[37.288050] (-) TimerEvent: {}
+[37.388425] (-) TimerEvent: {}
+[37.488795] (-) TimerEvent: {}
+[37.589162] (-) TimerEvent: {}
+[37.689539] (-) TimerEvent: {}
+[37.789902] (-) TimerEvent: {}
+[37.890266] (-) TimerEvent: {}
+[37.990657] (-) TimerEvent: {}
+[38.091021] (-) TimerEvent: {}
+[38.191395] (-) TimerEvent: {}
+[38.291764] (-) TimerEvent: {}
+[38.392136] (-) TimerEvent: {}
+[38.492503] (-) TimerEvent: {}
+[38.592863] (-) TimerEvent: {}
+[38.693243] (-) TimerEvent: {}
+[38.793647] (-) TimerEvent: {}
+[38.894012] (-) TimerEvent: {}
+[38.994400] (-) TimerEvent: {}
+[39.094766] (-) TimerEvent: {}
+[39.195132] (-) TimerEvent: {}
+[39.295504] (-) TimerEvent: {}
+[39.395876] (-) TimerEvent: {}
+[39.496240] (-) TimerEvent: {}
+[39.596649] (-) TimerEvent: {}
+[39.697012] (-) TimerEvent: {}
+[39.797372] (-) TimerEvent: {}
+[39.897757] (-) TimerEvent: {}
+[39.998115] (-) TimerEvent: {}
+[40.098531] (-) TimerEvent: {}
+[40.198929] (-) TimerEvent: {}
+[40.299323] (-) TimerEvent: {}
+[40.399760] (-) TimerEvent: {}
+[40.500264] (-) TimerEvent: {}
+[40.600753] (-) TimerEvent: {}
+[40.701263] (-) TimerEvent: {}
+[40.801716] (-) TimerEvent: {}
+[40.902135] (-) TimerEvent: {}
+[41.002615] (-) TimerEvent: {}
+[41.103067] (-) TimerEvent: {}
+[41.203558] (-) TimerEvent: {}
+[41.304241] (-) TimerEvent: {}
+[41.405506] (-) TimerEvent: {}
+[41.506066] (-) TimerEvent: {}
+[41.606462] (-) TimerEvent: {}
+[41.707098] (-) TimerEvent: {}
+[41.808398] (-) TimerEvent: {}
+[41.867218] (odrive_can) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable odrive_can_node\x1b[0m\n'}
+[41.908540] (-) TimerEvent: {}
+[42.009188] (-) TimerEvent: {}
+[42.110400] (-) TimerEvent: {}
+[42.211256] (-) TimerEvent: {}
+[42.312328] (-) TimerEvent: {}
+[42.413147] (-) TimerEvent: {}
+[42.514452] (-) TimerEvent: {}
+[42.615699] (-) TimerEvent: {}
+[42.716848] (-) TimerEvent: {}
+[42.817280] (-) TimerEvent: {}
+[42.917767] (-) TimerEvent: {}
+[43.018133] (-) TimerEvent: {}
+[43.043145] (odrive_can) StdoutLine: {'line': b'[100%] Built target odrive_can_node\n'}
+[43.076720] (odrive_can) CommandEnded: {'returncode': 0}
+[43.077898] (odrive_can) JobProgress: {'identifier': 'odrive_can', 'progress': 'install'}
+[43.098759] (odrive_can) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can'], 'cwd': '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pneumatic8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pneumatic8', 'OLDPWD': '/home/pneumatic8', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2625', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pneumatic8', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pneumatic8', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/DEECPi5:@/tmp/.ICE-unix/2596,unix/DEECPi5:/tmp/.ICE-unix/2596', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/86a7c8b4_939a_4e53_9a21_95ab52852061', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PYXHL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.139', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install/hello_world:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/pneumatic8/Documents/ros2_odrive/install/hello_world:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[43.115853] (odrive_can) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[43.116182] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/ament_index/resource_index/rosidl_interfaces/odrive_can\n'}
+[43.116499] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ControlMessage.json\n'}
+[43.116677] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ControllerStatus.json\n'}
+[43.116888] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ODriveStatus.json\n'}
+[43.117097] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/srv/AxisState.json\n'}
+[43.117268] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can\n'}
+[43.117450] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv\n'}
+[43.117581] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/axis_state.h\n'}
+[43.117697] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail\n'}
+[43.117817] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__description.c\n'}
+[43.117955] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__functions.h\n'}
+[43.118123] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__struct.h\n'}
+[43.118218] (-) TimerEvent: {}
+[43.118371] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__type_support.h\n'}
+[43.118593] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__functions.c\n'}
+[43.118764] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__type_support.c\n'}
+[43.119611] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg\n'}
+[43.120655] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/controller_status.h\n'}
+[43.121702] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/rosidl_generator_c__visibility_control.h\n'}
+[43.121963] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/o_drive_status.h\n'}
+[43.122248] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/control_message.h\n'}
+[43.122570] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail\n'}
+[43.122839] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__functions.c\n'}
+[43.130628] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__description.c\n'}
+[43.130863] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__type_support.c\n'}
+[43.131008] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__type_support.c\n'}
+[43.131136] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__functions.h\n'}
+[43.131246] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__functions.h\n'}
+[43.131335] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__functions.h\n'}
+[43.131469] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__type_support.h\n'}
+[43.131583] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__struct.h\n'}
+[43.131685] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__description.c\n'}
+[43.131770] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__type_support.h\n'}
+[43.131858] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__struct.h\n'}
+[43.131947] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__functions.c\n'}
+[43.132036] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__description.c\n'}
+[43.132168] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__functions.c\n'}
+[43.132277] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__type_support.h\n'}
+[43.132393] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__struct.h\n'}
+[43.132514] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__type_support.c\n'}
+[43.132676] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/library_path.sh\n'}
+[43.132959] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/library_path.dsv\n'}
+[43.133122] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_generator_c.so\n'}
+[43.133897] (odrive_can) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_generator_c.so" to ""\n'}
+[43.134041] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can\n'}
+[43.134191] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv\n'}
+[43.134341] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail\n'}
+[43.134525] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__rosidl_typesupport_fastrtps_c.h\n'}
+[43.134678] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg\n'}
+[43.134782] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[43.134881] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail\n'}
+[43.135471] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__rosidl_typesupport_fastrtps_c.h\n'}
+[43.135660] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__rosidl_typesupport_fastrtps_c.h\n'}
+[43.135770] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__rosidl_typesupport_fastrtps_c.h\n'}
+[43.135872] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_fastrtps_c.so\n'}
+[43.136010] (odrive_can) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[43.136155] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can\n'}
+[43.136313] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv\n'}
+[43.136493] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/axis_state.hpp\n'}
+[43.136619] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail\n'}
+[43.136747] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__traits.hpp\n'}
+[43.136902] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__struct.hpp\n'}
+[43.137128] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__builder.hpp\n'}
+[43.137268] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__type_support.hpp\n'}
+[43.137487] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg\n'}
+[43.137667] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[43.137802] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/control_message.hpp\n'}
+[43.137928] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/controller_status.hpp\n'}
+[43.138067] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail\n'}
+[43.138232] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__struct.hpp\n'}
+[43.138413] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__builder.hpp\n'}
+[43.138550] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__traits.hpp\n'}
+[43.138709] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__type_support.hpp\n'}
+[43.138863] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__type_support.hpp\n'}
+[43.138971] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__struct.hpp\n'}
+[43.139112] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__struct.hpp\n'}
+[43.139656] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__traits.hpp\n'}
+[43.139965] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__builder.hpp\n'}
+[43.140328] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__builder.hpp\n'}
+[43.140538] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__type_support.hpp\n'}
+[43.140771] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__traits.hpp\n'}
+[43.140960] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/o_drive_status.hpp\n'}
+[43.141134] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can\n'}
+[43.141267] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv\n'}
+[43.141512] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail\n'}
+[43.141678] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/dds_fastrtps\n'}
+[43.141892] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[43.142017] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg\n'}
+[43.142126] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[43.142331] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail\n'}
+[43.142537] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[43.142684] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[43.142792] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[43.142886] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/dds_fastrtps\n'}
+[43.142972] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_fastrtps_cpp.so\n'}
+[43.143296] (odrive_can) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[43.143460] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can\n'}
+[43.143587] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv\n'}
+[43.143678] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail\n'}
+[43.143763] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__type_support.c\n'}
+[43.144092] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__rosidl_typesupport_introspection_c.h\n'}
+[43.144215] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg\n'}
+[43.144309] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[43.144424] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail\n'}
+[43.145285] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__rosidl_typesupport_introspection_c.h\n'}
+[43.145679] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__type_support.c\n'}
+[43.145818] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__rosidl_typesupport_introspection_c.h\n'}
+[43.145916] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__type_support.c\n'}
+[43.146013] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__rosidl_typesupport_introspection_c.h\n'}
+[43.146166] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__type_support.c\n'}
+[43.146325] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_introspection_c.so\n'}
+[43.146525] (odrive_can) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_introspection_c.so" to ""\n'}
+[43.146696] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_c.so\n'}
+[43.147031] (odrive_can) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_c.so" to ""\n'}
+[43.147371] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can\n'}
+[43.147584] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv\n'}
+[43.147704] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail\n'}
+[43.147806] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__type_support.cpp\n'}
+[43.147901] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[43.148079] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg\n'}
+[43.148203] (odrive_can) StdoutLine: {'line': b'-- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail\n'}
+[43.148307] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__type_support.cpp\n'}
+[43.148488] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__type_support.cpp\n'}
+[43.148601] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[43.148724] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__type_support.cpp\n'}
+[43.148854] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[43.149050] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[43.149312] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_introspection_cpp.so\n'}
+[43.149880] (odrive_can) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[43.150120] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_cpp.so\n'}
+[43.150867] (odrive_can) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_cpp.so" to ""\n'}
+[43.151256] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/pythonpath.sh\n'}
+[43.151463] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/pythonpath.dsv\n'}
+[43.151676] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can-0.0.1-py3.12.egg-info\n'}
+[43.151818] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can-0.0.1-py3.12.egg-info/dependency_links.txt\n'}
+[43.153727] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can-0.0.1-py3.12.egg-info/top_level.txt\n'}
+[43.158453] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can-0.0.1-py3.12.egg-info/SOURCES.txt\n'}
+[43.160692] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can-0.0.1-py3.12.egg-info/PKG-INFO\n'}
+[43.165558] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can\n'}
+[43.165893] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/srv\n'}
+[43.166058] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/srv/_axis_state.py\n'}
+[43.166212] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/srv/_axis_state_s.c\n'}
+[43.166337] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/srv/__init__.py\n'}
+[43.166510] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_fastrtps_c.so\n'}
+[43.166817] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/_odrive_can_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[43.167031] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/_odrive_can_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[43.167181] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_c.so\n'}
+[43.167301] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg\n'}
+[43.167453] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_o_drive_status.py\n'}
+[43.167589] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_control_message_s.c\n'}
+[43.167690] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_controller_status.py\n'}
+[43.167794] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_o_drive_status_s.c\n'}
+[43.167910] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/__init__.py\n'}
+[43.168019] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_controller_status_s.c\n'}
+[43.168122] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_control_message.py\n'}
+[43.168255] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/__init__.py\n'}
+[43.168357] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_introspection_c.so\n'}
+[43.168508] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/_odrive_can_s.ep.rosidl_typesupport_c.c\n'}
+[43.218363] (-) TimerEvent: {}
+[43.253986] (odrive_can) StdoutLine: {'line': b"Listing '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can'...\n"}
+[43.254692] (odrive_can) StdoutLine: {'line': b"Compiling '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/__init__.py'...\n"}
+[43.254970] (odrive_can) StdoutLine: {'line': b"Listing '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg'...\n"}
+[43.255128] (odrive_can) StdoutLine: {'line': b"Compiling '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/__init__.py'...\n"}
+[43.255249] (odrive_can) StdoutLine: {'line': b"Compiling '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_control_message.py'...\n"}
+[43.255362] (odrive_can) StdoutLine: {'line': b"Compiling '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_controller_status.py'...\n"}
+[43.255535] (odrive_can) StdoutLine: {'line': b"Compiling '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_o_drive_status.py'...\n"}
+[43.255663] (odrive_can) StdoutLine: {'line': b"Listing '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/srv'...\n"}
+[43.255812] (odrive_can) StdoutLine: {'line': b"Compiling '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/srv/__init__.py'...\n"}
+[43.255955] (odrive_can) StdoutLine: {'line': b"Compiling '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/srv/_axis_state.py'...\n"}
+[43.274063] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_fastrtps_c.so\n'}
+[43.274826] (odrive_can) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[43.275288] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_introspection_c.so\n'}
+[43.276074] (odrive_can) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[43.276657] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_c.so\n'}
+[43.277323] (odrive_can) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_c.so" to ""\n'}
+[43.277641] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_generator_py.so\n'}
+[43.278434] (odrive_can) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_generator_py.so" to ""\n'}
+[43.278655] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ControlMessage.idl\n'}
+[43.278814] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ControllerStatus.idl\n'}
+[43.279434] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ODriveStatus.idl\n'}
+[43.279694] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/srv/AxisState.idl\n'}
+[43.279879] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ControlMessage.msg\n'}
+[43.280054] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ControllerStatus.msg\n'}
+[43.280453] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ODriveStatus.msg\n'}
+[43.280701] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/srv/AxisState.srv\n'}
+[43.281661] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/odrive_can/odrive_can_node\n'}
+[43.293246] (odrive_can) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/odrive_can/odrive_can_node" to ""\n'}
+[43.293689] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/launch\n'}
+[43.293884] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/launch/example_launch.yaml\n'}
+[43.294064] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/ament_index/resource_index/package_run_dependencies/odrive_can\n'}
+[43.294307] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/ament_index/resource_index/parent_prefix_path/odrive_can\n'}
+[43.294849] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/ament_prefix_path.sh\n'}
+[43.295019] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/ament_prefix_path.dsv\n'}
+[43.295914] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/path.sh\n'}
+[43.297041] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/path.dsv\n'}
+[43.297269] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/local_setup.bash\n'}
+[43.297459] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/local_setup.sh\n'}
+[43.297728] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/local_setup.zsh\n'}
+[43.297874] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/local_setup.dsv\n'}
+[43.298075] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/package.dsv\n'}
+[43.298265] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/ament_index/resource_index/packages/odrive_can\n'}
+[43.298452] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_generator_cExport.cmake\n'}
+[43.298600] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_generator_cExport-noconfig.cmake\n'}
+[43.298805] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[43.298985] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[43.299112] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_generator_cppExport.cmake\n'}
+[43.299222] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[43.299406] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[43.299592] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_introspection_cExport.cmake\n'}
+[43.299705] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[43.299871] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_cExport.cmake\n'}
+[43.300077] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[43.300410] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[43.300691] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[43.300970] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_cppExport.cmake\n'}
+[43.301864] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[43.302126] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_generator_pyExport.cmake\n'}
+[43.302340] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_generator_pyExport-noconfig.cmake\n'}
+[43.302605] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/rosidl_cmake-extras.cmake\n'}
+[43.302895] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[43.303130] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[43.303323] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[43.303540] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[43.303678] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[43.303876] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[43.304065] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_canConfig.cmake\n'}
+[43.304266] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_canConfig-version.cmake\n'}
+[43.304425] (odrive_can) StdoutLine: {'line': b'-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/package.xml\n'}
+[43.309134] (odrive_can) CommandEnded: {'returncode': 0}
+[43.318649] (-) TimerEvent: {}
+[43.385678] (odrive_can) JobEnded: {'identifier': 'odrive_can', 'rc': 0}
+[43.387782] (-) EventReactorShutdown: {}

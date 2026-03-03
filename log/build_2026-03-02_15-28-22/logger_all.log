@@ -1,0 +1,262 @@
+[0.279s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'odrive_can']
+[0.279s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['odrive_can'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa7a3c710>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa7bf8dd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa7bf8dd0>>, mixin_verb=('build',))
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.462s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pneumatic8/Documents/ros2_odrive'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/Ex_hello_world) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/Ex_hello_world) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/Ex_hello_world) by extension 'ignore_ament_install'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/Ex_hello_world) by extensions ['colcon_pkg']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/Ex_hello_world) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/Ex_hello_world) by extensions ['colcon_meta']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/Ex_hello_world) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/Ex_hello_world) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/Ex_hello_world) by extension 'ros'
+[0.532s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Ex_hello_world' with type 'ros.ament_cmake' and name 'hello_world'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_HIL) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_HIL) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_HIL) by extension 'ignore_ament_install'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_HIL) by extensions ['colcon_pkg']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_HIL) by extension 'colcon_pkg'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_HIL) by extensions ['colcon_meta']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_HIL) by extension 'colcon_meta'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_HIL) by extensions ['ros']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_HIL) by extension 'ros'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_HIL) by extensions ['cmake', 'python']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_HIL) by extension 'cmake'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_HIL) by extension 'python'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_HIL) by extensions ['python_setup_py']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_HIL) by extension 'python_setup_py'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive) by extension 'ignore_ament_install'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive) by extensions ['colcon_pkg']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive) by extension 'colcon_pkg'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive) by extensions ['colcon_meta']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive) by extension 'colcon_meta'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive) by extensions ['ros']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive) by extension 'ros'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive) by extensions ['cmake', 'python']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive) by extension 'cmake'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive) by extension 'python'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive) by extensions ['python_setup_py']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive) by extension 'python_setup_py'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base) by extension 'ignore_ament_install'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base) by extensions ['colcon_pkg']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base) by extension 'colcon_pkg'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base) by extensions ['colcon_meta']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base) by extension 'colcon_meta'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base) by extension 'ros'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base) by extensions ['cmake', 'python']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base) by extension 'cmake'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base) by extension 'python'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base) by extensions ['python_setup_py']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base) by extension 'python_setup_py'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/include) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/include) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/include) by extension 'ignore_ament_install'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/include) by extensions ['colcon_pkg']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/include) by extension 'colcon_pkg'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/include) by extensions ['colcon_meta']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/include) by extension 'colcon_meta'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/include) by extensions ['ros']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/include) by extension 'ros'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/include) by extensions ['cmake', 'python']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/include) by extension 'cmake'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/include) by extension 'python'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/include) by extensions ['python_setup_py']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/include) by extension 'python_setup_py'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/src) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/src) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/src) by extension 'ignore_ament_install'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/src) by extensions ['colcon_pkg']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/src) by extension 'colcon_pkg'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/src) by extensions ['colcon_meta']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/src) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/src) by extensions ['ros']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/src) by extension 'ros'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/src) by extensions ['cmake', 'python']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/src) by extension 'cmake'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/src) by extension 'python'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/src) by extensions ['python_setup_py']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_base/src) by extension 'python_setup_py'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_botwheel_explorer) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_botwheel_explorer) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_botwheel_explorer) by extension 'ignore_ament_install'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_botwheel_explorer) by extensions ['colcon_pkg']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_botwheel_explorer) by extension 'colcon_pkg'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_botwheel_explorer) by extensions ['colcon_meta']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_botwheel_explorer) by extension 'colcon_meta'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_botwheel_explorer) by extensions ['ros']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_botwheel_explorer) by extension 'ros'
+[0.541s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_odrive/odrive_botwheel_explorer' with type 'ros.ament_cmake' and name 'odrive_botwheel_explorer'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_node) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_node) by extension 'ignore'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_node) by extension 'ignore_ament_install'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_node) by extensions ['colcon_pkg']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_node) by extension 'colcon_pkg'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_node) by extensions ['colcon_meta']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_node) by extension 'colcon_meta'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_node) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_node) by extension 'ros'
+[0.543s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_odrive/odrive_node' with type 'ros.ament_cmake' and name 'odrive_can'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_ros2_control) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_ros2_control) by extension 'ignore_ament_install'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_ros2_control) by extensions ['colcon_pkg']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_ros2_control) by extension 'colcon_pkg'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_ros2_control) by extensions ['colcon_meta']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_ros2_control) by extension 'colcon_meta'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_ros2_control) by extensions ['ros']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_odrive/odrive_ros2_control) by extension 'ros'
+[0.545s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_odrive/odrive_ros2_control' with type 'ros.ament_cmake' and name 'odrive_ros2_control'
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.588s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hello_world' in 'src/Ex_hello_world'
+[0.588s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'odrive_ros2_control' in 'src/ros_odrive/odrive_ros2_control'
+[0.588s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'odrive_botwheel_explorer' in 'src/ros_odrive/odrive_botwheel_explorer'
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.595s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pneumatic8/Documents/ros2_odrive/install
+[0.598s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 339 installed packages in /opt/ros/jazzy
+[0.601s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'odrive_can' build argument 'cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'odrive_can' build argument 'cmake_target' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'odrive_can' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'odrive_can' build argument 'cmake_clean_cache' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'odrive_can' build argument 'cmake_clean_first' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'odrive_can' build argument 'cmake_force_configure' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'odrive_can' build argument 'ament_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'odrive_can' build argument 'catkin_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'odrive_can' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.674s] DEBUG:colcon.colcon_core.verb:Building package 'odrive_can' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can', 'merge_install': False, 'path': '/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node', 'symlink_install': False, 'test_result_base': None}
+[0.674s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.676s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.676s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node' with build type 'ament_cmake'
+[0.677s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node'
+[0.692s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node -DCMAKE_INSTALL_PREFIX=/home/pneumatic8/Documents/ros2_odrive/install/odrive_can
+[8.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node -DCMAKE_INSTALL_PREFIX=/home/pneumatic8/Documents/ros2_odrive/install/odrive_can
+[8.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pneumatic8/Documents/ros2_odrive/build/odrive_can -- -j4 -l4
+[42.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pneumatic8/Documents/ros2_odrive/build/odrive_can -- -j4 -l4
+[42.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pneumatic8/Documents/ros2_odrive/build/odrive_can
+[42.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_can)
+[42.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pneumatic8/Documents/ros2_odrive/build/odrive_can
+[42.656s] Level 1:colcon.colcon_core.environment:checking '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can' for CMake module files
+[42.657s] Level 1:colcon.colcon_core.environment:checking '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can' for CMake config files
+[42.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_can', 'cmake_prefix_path')
+[42.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/cmake_prefix_path.ps1'
+[42.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/cmake_prefix_path.dsv'
+[42.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/cmake_prefix_path.sh'
+[42.682s] Level 1:colcon.colcon_core.environment:checking '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib'
+[42.682s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_can', 'ld_library_path_lib')
+[42.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/ld_library_path_lib.ps1'
+[42.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/ld_library_path_lib.dsv'
+[42.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/ld_library_path_lib.sh'
+[42.684s] Level 1:colcon.colcon_core.environment:checking '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/bin'
+[42.684s] Level 1:colcon.colcon_core.environment:checking '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/pkgconfig/odrive_can.pc'
+[42.685s] Level 1:colcon.colcon_core.environment:checking '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages'
+[42.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_can', 'pythonpath')
+[42.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/pythonpath.ps1'
+[42.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/pythonpath.dsv'
+[42.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/pythonpath.sh'
+[42.687s] Level 1:colcon.colcon_core.environment:checking '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/bin'
+[42.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/package.ps1'
+[42.696s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/package.dsv'
+[42.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/package.sh'
+[42.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/package.bash'
+[42.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/package.zsh'
+[42.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/colcon-core/packages/odrive_can)
+[42.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_can)
+[42.796s] Level 1:colcon.colcon_core.environment:checking '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can' for CMake module files
+[42.798s] Level 1:colcon.colcon_core.environment:checking '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can' for CMake config files
+[42.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_can', 'cmake_prefix_path')
+[42.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/cmake_prefix_path.ps1'
+[42.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/cmake_prefix_path.dsv'
+[42.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/cmake_prefix_path.sh'
+[42.801s] Level 1:colcon.colcon_core.environment:checking '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib'
+[42.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_can', 'ld_library_path_lib')
+[42.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/ld_library_path_lib.ps1'
+[42.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/ld_library_path_lib.dsv'
+[42.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/ld_library_path_lib.sh'
+[42.805s] Level 1:colcon.colcon_core.environment:checking '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/bin'
+[42.806s] Level 1:colcon.colcon_core.environment:checking '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/pkgconfig/odrive_can.pc'
+[42.806s] Level 1:colcon.colcon_core.environment:checking '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages'
+[42.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_can', 'pythonpath')
+[42.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/pythonpath.ps1'
+[42.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/pythonpath.dsv'
+[42.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/hook/pythonpath.sh'
+[42.823s] Level 1:colcon.colcon_core.environment:checking '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/bin'
+[42.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/package.ps1'
+[42.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/package.dsv'
+[42.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/package.sh'
+[42.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/package.bash'
+[42.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/package.zsh'
+[42.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/colcon-core/packages/odrive_can)
+[42.828s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[42.828s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[42.828s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[42.828s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[42.852s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[42.853s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[42.853s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[42.887s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[42.887s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pneumatic8/Documents/ros2_odrive/install/local_setup.ps1'
+[42.947s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pneumatic8/Documents/ros2_odrive/install/_local_setup_util_ps1.py'
+[42.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pneumatic8/Documents/ros2_odrive/install/setup.ps1'
+[42.954s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pneumatic8/Documents/ros2_odrive/install/local_setup.sh'
+[42.957s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pneumatic8/Documents/ros2_odrive/install/_local_setup_util_sh.py'
+[42.959s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pneumatic8/Documents/ros2_odrive/install/setup.sh'
+[42.962s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pneumatic8/Documents/ros2_odrive/install/local_setup.bash'
+[42.965s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pneumatic8/Documents/ros2_odrive/install/setup.bash'
+[42.969s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pneumatic8/Documents/ros2_odrive/install/local_setup.zsh'
+[42.971s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pneumatic8/Documents/ros2_odrive/install/setup.zsh'

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/sine_pub.dir/src/sine_pub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sine_pub[0m
+[100%] Built target sine_pub
+-- Install configuration: ""
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/lib/motor_sine/sine_pub
+-- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/lib/motor_sine/sine_pub" to ""
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/ament_index/resource_index/package_run_dependencies/motor_sine
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/ament_index/resource_index/parent_prefix_path/motor_sine
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/environment/ament_prefix_path.sh
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/environment/ament_prefix_path.dsv
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/environment/path.sh
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/environment/path.dsv
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/local_setup.bash
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/local_setup.sh
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/local_setup.zsh
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/local_setup.dsv
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/package.dsv
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/ament_index/resource_index/packages/motor_sine
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/cmake/motor_sineConfig.cmake
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/cmake/motor_sineConfig-version.cmake
+-- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/package.xml

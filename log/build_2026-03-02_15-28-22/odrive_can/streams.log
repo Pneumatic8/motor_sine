@@ -1,0 +1,392 @@
+[0.029s] Invoking command in '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node -DCMAKE_INSTALL_PREFIX=/home/pneumatic8/Documents/ros2_odrive/install/odrive_can
+[0.650s] -- The C compiler identification is GNU 13.3.0
+[1.085s] -- The CXX compiler identification is GNU 13.3.0
+[1.165s] -- Detecting C compiler ABI info
+[1.381s] -- Detecting C compiler ABI info - done
+[1.396s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.398s] -- Detecting C compile features
+[1.399s] -- Detecting C compile features - done
+[1.424s] -- Detecting CXX compiler ABI info
+[1.633s] -- Detecting CXX compiler ABI info - done
+[1.649s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.650s] -- Detecting CXX compile features
+[1.650s] -- Detecting CXX compile features - done
+[1.664s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.958s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.204s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.346s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.375s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.418s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.459s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.666s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.673s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.861s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.892s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.933s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.087s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.124s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.134s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[4.209s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.575s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.030s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.036s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.255s] -- Found PythonExtra: /usr/bin/python3  
+[7.222s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.299s] -- Configuring done (7.1s)
+[7.388s] -- Generating done (0.1s)
+[7.410s] -- Build files have been written to: /home/pneumatic8/Documents/ros2_odrive/build/odrive_can
+[7.450s] Invoked command in '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node -DCMAKE_INSTALL_PREFIX=/home/pneumatic8/Documents/ros2_odrive/install/odrive_can
+[7.451s] Invoking command in '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pneumatic8/Documents/ros2_odrive/build/odrive_can -- -j4 -l4
+[7.559s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.579s] [  1%] Built target ament_cmake_python_copy_odrive_can
+[7.984s] running egg_info
+[7.985s] creating odrive_can.egg-info
+[8.018s] writing odrive_can.egg-info/PKG-INFO
+[8.018s] writing dependency_links to odrive_can.egg-info/dependency_links.txt
+[8.018s] writing top-level names to odrive_can.egg-info/top_level.txt
+[8.018s] writing manifest file 'odrive_can.egg-info/SOURCES.txt'
+[8.055s] [  1%] Built target odrive_can__rosidl_generator_type_description
+[8.078s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.103s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.153s] reading manifest file 'odrive_can.egg-info/SOURCES.txt'
+[8.155s] writing manifest file 'odrive_can.egg-info/SOURCES.txt'
+[8.285s] [  4%] Built target ament_cmake_python_build_odrive_can_egg
+[9.047s] [  4%] Built target odrive_can__cpp
+[9.153s] [  7%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/controller_status__description.c.o[0m
+[9.153s] [  7%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/control_message__description.c.o[0m
+[9.156s] [  8%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/control_message__functions.c.o[0m
+[9.157s] [ 10%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/control_message__type_support.c.o[0m
+[9.322s] [ 11%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/controller_status__functions.c.o[0m
+[9.364s] [ 13%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/controller_status__type_support.c.o[0m
+[9.364s] [ 14%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/o_drive_status__description.c.o[0m
+[9.461s] [ 15%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/o_drive_status__functions.c.o[0m
+[9.462s] [ 17%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/msg/detail/o_drive_status__type_support.c.o[0m
+[9.462s] [ 18%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/srv/detail/axis_state__description.c.o[0m
+[9.484s] [ 20%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/srv/detail/axis_state__functions.c.o[0m
+[9.622s] [ 21%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_c.dir/rosidl_generator_c/odrive_can/srv/detail/axis_state__type_support.c.o[0m
+[9.781s] [ 23%] [32m[1mLinking C shared library libodrive_can__rosidl_generator_c.so[0m
+[9.898s] [ 23%] Built target odrive_can__rosidl_generator_c
+[9.920s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.921s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.921s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.923s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.710s] [ 30%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odrive_can/msg/control_message__type_support.cpp.o[0m
+[10.864s] [ 31%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odrive_can/msg/detail/control_message__type_support.c.o[0m
+[10.981s] [ 33%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odrive_can/msg/detail/dds_fastrtps/control_message__type_support.cpp.o[0m
+[11.014s] [ 34%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odrive_can/msg/detail/controller_status__type_support.c.o[0m
+[11.125s] [ 36%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odrive_can/msg/detail/control_message__type_support_c.cpp.o[0m
+[11.146s] [ 37%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odrive_can/msg/detail/o_drive_status__type_support.c.o[0m
+[11.240s] [ 39%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odrive_can/srv/detail/axis_state__type_support.c.o[0m
+[11.369s] [ 40%] [32m[1mLinking C shared library libodrive_can__rosidl_typesupport_introspection_c.so[0m
+[11.585s] [ 40%] Built target odrive_can__rosidl_typesupport_introspection_c
+[11.625s] [ 42%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.114s] [ 43%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odrive_can/msg/controller_status__type_support.cpp.o[0m
+[12.674s] [ 44%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_c.dir/rosidl_typesupport_c/odrive_can/msg/control_message__type_support.cpp.o[0m
+[12.765s] [ 47%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odrive_can/msg/detail/controller_status__type_support_c.cpp.o[0m
+[12.766s] [ 47%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odrive_can/msg/detail/dds_fastrtps/controller_status__type_support.cpp.o[0m
+[12.802s] [ 49%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_c.dir/rosidl_typesupport_c/odrive_can/msg/controller_status__type_support.cpp.o[0m
+[12.918s] [ 50%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_c.dir/rosidl_typesupport_c/odrive_can/msg/o_drive_status__type_support.cpp.o[0m
+[13.074s] [ 52%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_c.dir/rosidl_typesupport_c/odrive_can/srv/axis_state__type_support.cpp.o[0m
+[13.113s] [ 53%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odrive_can/msg/o_drive_status__type_support.cpp.o[0m
+[13.209s] [ 55%] [32m[1mLinking CXX shared library libodrive_can__rosidl_typesupport_c.so[0m
+[13.401s] [ 55%] Built target odrive_can__rosidl_typesupport_c
+[13.426s] [ 56%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odrive_can/srv/axis_state__type_support.cpp.o[0m
+[14.125s] [ 57%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odrive_can/msg/detail/dds_fastrtps/o_drive_status__type_support.cpp.o[0m
+[14.191s] [ 59%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odrive_can/msg/detail/o_drive_status__type_support_c.cpp.o[0m
+[14.321s] [ 60%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odrive_can/srv/detail/dds_fastrtps/axis_state__type_support.cpp.o[0m
+[14.691s] [ 62%] [32m[1mLinking CXX shared library libodrive_can__rosidl_typesupport_cpp.so[0m
+[15.004s] [ 62%] Built target odrive_can__rosidl_typesupport_cpp
+[15.028s] [ 63%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odrive_can/srv/detail/axis_state__type_support_c.cpp.o[0m
+[15.729s] [ 65%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.794s] [ 66%] [32mBuilding CXX object CMakeFiles/odrive_can_node.dir/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_base/src/epoll_event_loop.cpp.o[0m
+[16.361s] [ 68%] [32m[1mLinking CXX shared library libodrive_can__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.575s] [ 69%] [32m[1mLinking CXX shared library libodrive_can__rosidl_typesupport_fastrtps_c.so[0m
+[16.789s] [ 69%] Built target odrive_can__rosidl_typesupport_fastrtps_cpp
+[16.799s] [ 69%] Built target odrive_can__rosidl_typesupport_fastrtps_c
+[16.832s] [ 71%] [32mBuilding CXX object CMakeFiles/odrive_can_node.dir/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_base/src/socket_can.cpp.o[0m
+[16.839s] [ 72%] [32mBuilding CXX object CMakeFiles/odrive_can_node.dir/src/odrive_can_node.cpp.o[0m
+[16.923s] [ 73%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odrive_can/msg/detail/control_message__type_support.cpp.o[0m
+[17.785s] [ 75%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odrive_can/msg/detail/controller_status__type_support.cpp.o[0m
+[17.959s] [ 76%] [32mBuilding CXX object CMakeFiles/odrive_can_node.dir/src/main.cpp.o[0m
+[18.597s] [ 78%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odrive_can/msg/detail/o_drive_status__type_support.cpp.o[0m
+[18.676s] [ 79%] [32mBuilding CXX object CMakeFiles/odrive_can__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odrive_can/srv/detail/axis_state__type_support.cpp.o[0m
+[19.880s] [ 81%] [32m[1mLinking CXX shared library libodrive_can__rosidl_typesupport_introspection_cpp.so[0m
+[20.148s] [ 81%] Built target odrive_can__rosidl_typesupport_introspection_cpp
+[20.193s] [ 81%] Built target odrive_can
+[20.258s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.715s] [ 82%] Built target odrive_can__py
+[21.762s] [ 84%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_py.dir/rosidl_generator_py/odrive_can/msg/_control_message_s.c.o[0m
+[21.762s] [ 85%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_py.dir/rosidl_generator_py/odrive_can/msg/_controller_status_s.c.o[0m
+[22.207s] [ 86%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_py.dir/rosidl_generator_py/odrive_can/msg/_o_drive_status_s.c.o[0m
+[22.215s] [ 88%] [32mBuilding C object CMakeFiles/odrive_can__rosidl_generator_py.dir/rosidl_generator_py/odrive_can/srv/_axis_state_s.c.o[0m
+[22.677s] [ 89%] [32m[1mLinking C shared library libodrive_can__rosidl_generator_py.so[0m
+[22.849s] [ 89%] Built target odrive_can__rosidl_generator_py
+[22.924s] [ 91%] [32mBuilding C object CMakeFiles/odrive_can_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/odrive_can/_odrive_can_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[22.924s] [ 92%] [32mBuilding C object CMakeFiles/odrive_can_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/odrive_can/_odrive_can_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.272s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/odrive_can/odrive_can_s__rosidl_typesupport_fastrtps_c.so[0m
+[23.297s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/odrive_can/odrive_can_s__rosidl_typesupport_introspection_c.so[0m
+[23.394s] [ 95%] Built target odrive_can_s__rosidl_typesupport_fastrtps_c
+[23.422s] [ 95%] Built target odrive_can_s__rosidl_typesupport_introspection_c
+[23.470s] [ 97%] [32mBuilding C object CMakeFiles/odrive_can_s__rosidl_typesupport_c.dir/rosidl_generator_py/odrive_can/_odrive_can_s.ep.rosidl_typesupport_c.c.o[0m
+[23.733s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/odrive_can/odrive_can_s__rosidl_typesupport_c.so[0m
+[23.804s] [ 98%] Built target odrive_can_s__rosidl_typesupport_c
+[25.458s] [01m[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:[m[K In member function ‘[01m[Kvoid ODriveCanNode::[01;32m[Kservice_clear_errors_callback[m[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[25.458s] [01m[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:224:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.458s]   224 | void ODriveCanNode::service_clear_errors_callback([01;35m[Kconst std::shared_ptr<Empty::Request> request[m[K, std::shared_ptr<Empty::Response> response) {
+[25.458s]       |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[25.458s] [01m[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:224:131:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.458s]   224 | void ODriveCanNode::service_clear_errors_callback(const std::shared_ptr<Empty::Request> request, [01;35m[Kstd::shared_ptr<Empty::Response> response[m[K) {
+[25.458s]       |                                                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[31.277s] [01m[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:[m[K In member function ‘[01m[Kvoid ODriveCanNode::[01;32m[Kdeinit[m[K()[m[K’:
+[31.278s] [01m[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:66:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Kframe[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[31.278s]    66 |         [01;35m[Kwrite_le<uint32_t>(ODriveAxisState::AXIS_STATE_IDLE, frame.data)[m[K;
+[31.278s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.278s] In file included from [01m[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:4[m[K:
+[31.278s] [01m[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/include/byte_swap.hpp:36:6:[m[K [01;36m[Knote: [m[Kby argument 2 of type ‘[01m[Kconst unsigned char*[m[K’ to ‘[01m[Kvoid[01;32m[K write_le[m[K(const T&, const unsigned char*) [35m[K[with T = unsigned int][m[K[m[K’ declared here
+[31.278s]    36 | void [01;36m[Kwrite_le[m[K(const T& val, const unsigned char* buf) {
+[31.278s]       |      [01;36m[K^~~~~~~~[m[K
+[31.278s] [01m[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:64:26:[m[K [01;36m[Knote: [m[K‘[01m[Kframe[m[K’ declared here
+[31.278s]    64 |         struct can_frame [01;36m[Kframe[m[K;
+[31.279s]       |                          [01;36m[K^~~~~[m[K
+[31.279s] [01m[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:[m[K In member function ‘[01m[Kvoid ODriveCanNode::[01;32m[Krequest_clear_errors_callback[m[K()[m[K’:
+[31.279s] [01m[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:256:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kframe[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[31.279s]   256 |     [01;35m[Kwrite_le<uint8_t>(0, frame.data)[m[K;
+[31.279s]       |     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[31.279s] [01m[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/include/byte_swap.hpp:36:6:[m[K [01;36m[Knote: [m[Kby argument 2 of type ‘[01m[Kconst unsigned char*[m[K’ to ‘[01m[Kvoid[01;32m[K write_le[m[K(const T&, const unsigned char*) [35m[K[with T = unsigned char][m[K[m[K’ declared here
+[31.279s]    36 | void [01;36m[Kwrite_le[m[K(const T& val, const unsigned char* buf) {
+[31.279s]       |      [01;36m[K^~~~~~~~[m[K
+[31.279s] [01m[K/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node/src/odrive_can_node.cpp:254:22:[m[K [01;36m[Knote: [m[K‘[01m[Kframe[m[K’ declared here
+[31.279s]   254 |     struct can_frame [01;36m[Kframe[m[K;
+[31.279s]       |                      [01;36m[K^~~~~[m[K
+[40.414s] [100%] [32m[1mLinking CXX executable odrive_can_node[0m
+[41.705s] [100%] Built target odrive_can_node
+[41.745s] Invoked command in '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pneumatic8/Documents/ros2_odrive/build/odrive_can -- -j4 -l4
+[41.766s] Invoking command in '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pneumatic8/Documents/ros2_odrive/build/odrive_can
+[41.786s] -- Install configuration: ""
+[41.786s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/ament_index/resource_index/rosidl_interfaces/odrive_can
+[41.787s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ControlMessage.json
+[41.787s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ControllerStatus.json
+[41.787s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ODriveStatus.json
+[41.787s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/srv/AxisState.json
+[41.787s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can
+[41.787s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv
+[41.788s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/axis_state.h
+[41.788s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail
+[41.788s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__description.c
+[41.788s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__functions.h
+[41.788s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__struct.h
+[41.788s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__type_support.h
+[41.788s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__functions.c
+[41.789s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__type_support.c
+[41.789s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg
+[41.789s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/controller_status.h
+[41.789s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/rosidl_generator_c__visibility_control.h
+[41.789s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/o_drive_status.h
+[41.789s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/control_message.h
+[41.789s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail
+[41.790s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__functions.c
+[41.790s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__description.c
+[41.790s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__type_support.c
+[41.790s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__type_support.c
+[41.790s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__functions.h
+[41.790s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__functions.h
+[41.791s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__functions.h
+[41.791s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__type_support.h
+[41.791s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__struct.h
+[41.791s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__description.c
+[41.791s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__type_support.h
+[41.791s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__struct.h
+[41.791s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__functions.c
+[41.791s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__description.c
+[41.792s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__functions.c
+[41.792s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__type_support.h
+[41.792s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__struct.h
+[41.792s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__type_support.c
+[41.792s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/library_path.sh
+[41.793s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/library_path.dsv
+[41.793s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_generator_c.so
+[41.794s] -- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_generator_c.so" to ""
+[41.794s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can
+[41.794s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv
+[41.794s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail
+[41.795s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__rosidl_typesupport_fastrtps_c.h
+[41.796s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg
+[41.796s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[41.796s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail
+[41.796s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__rosidl_typesupport_fastrtps_c.h
+[41.797s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__rosidl_typesupport_fastrtps_c.h
+[41.797s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__rosidl_typesupport_fastrtps_c.h
+[41.797s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_fastrtps_c.so
+[41.797s] -- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_fastrtps_c.so" to ""
+[41.797s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can
+[41.797s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv
+[41.798s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/axis_state.hpp
+[41.798s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail
+[41.798s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__traits.hpp
+[41.798s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__struct.hpp
+[41.798s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__builder.hpp
+[41.799s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__type_support.hpp
+[41.799s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg
+[41.799s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/rosidl_generator_cpp__visibility_control.hpp
+[41.799s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/control_message.hpp
+[41.799s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/controller_status.hpp
+[41.799s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail
+[41.800s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__struct.hpp
+[41.800s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__builder.hpp
+[41.800s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__traits.hpp
+[41.800s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__type_support.hpp
+[41.800s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__type_support.hpp
+[41.801s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__struct.hpp
+[41.801s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__struct.hpp
+[41.801s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__traits.hpp
+[41.802s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__builder.hpp
+[41.802s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__builder.hpp
+[41.802s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__type_support.hpp
+[41.802s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__traits.hpp
+[41.802s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/o_drive_status.hpp
+[41.802s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can
+[41.803s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv
+[41.803s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail
+[41.803s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/dds_fastrtps
+[41.803s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__rosidl_typesupport_fastrtps_cpp.hpp
+[41.804s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg
+[41.804s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[41.804s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail
+[41.804s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__rosidl_typesupport_fastrtps_cpp.hpp
+[41.804s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__rosidl_typesupport_fastrtps_cpp.hpp
+[41.805s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__rosidl_typesupport_fastrtps_cpp.hpp
+[41.805s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/dds_fastrtps
+[41.805s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_fastrtps_cpp.so
+[41.805s] -- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_fastrtps_cpp.so" to ""
+[41.805s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can
+[41.807s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv
+[41.807s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail
+[41.807s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__type_support.c
+[41.807s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__rosidl_typesupport_introspection_c.h
+[41.807s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg
+[41.807s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[41.808s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail
+[41.808s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__rosidl_typesupport_introspection_c.h
+[41.808s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__type_support.c
+[41.808s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__rosidl_typesupport_introspection_c.h
+[41.809s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__type_support.c
+[41.809s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__rosidl_typesupport_introspection_c.h
+[41.809s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__type_support.c
+[41.809s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_introspection_c.so
+[41.809s] -- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_introspection_c.so" to ""
+[41.810s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_c.so
+[41.810s] -- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_c.so" to ""
+[41.810s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can
+[41.810s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv
+[41.810s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail
+[41.810s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__type_support.cpp
+[41.811s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/srv/detail/axis_state__rosidl_typesupport_introspection_cpp.hpp
+[41.811s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg
+[41.811s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail
+[41.811s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__type_support.cpp
+[41.811s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__type_support.cpp
+[41.811s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__rosidl_typesupport_introspection_cpp.hpp
+[41.811s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/control_message__type_support.cpp
+[41.811s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/o_drive_status__rosidl_typesupport_introspection_cpp.hpp
+[41.812s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/include/odrive_can/odrive_can/msg/detail/controller_status__rosidl_typesupport_introspection_cpp.hpp
+[41.812s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_introspection_cpp.so
+[41.812s] -- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_introspection_cpp.so" to ""
+[41.814s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_cpp.so
+[41.814s] -- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_typesupport_cpp.so" to ""
+[41.814s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/pythonpath.sh
+[41.814s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/pythonpath.dsv
+[41.815s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can-0.0.1-py3.12.egg-info
+[41.815s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can-0.0.1-py3.12.egg-info/dependency_links.txt
+[41.815s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can-0.0.1-py3.12.egg-info/top_level.txt
+[41.815s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can-0.0.1-py3.12.egg-info/SOURCES.txt
+[41.817s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can-0.0.1-py3.12.egg-info/PKG-INFO
+[41.818s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can
+[41.819s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/srv
+[41.819s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/srv/_axis_state.py
+[41.819s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/srv/_axis_state_s.c
+[41.819s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/srv/__init__.py
+[41.819s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_fastrtps_c.so
+[41.820s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/_odrive_can_s.ep.rosidl_typesupport_introspection_c.c
+[41.820s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/_odrive_can_s.ep.rosidl_typesupport_fastrtps_c.c
+[41.820s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_c.so
+[41.820s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg
+[41.820s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_o_drive_status.py
+[41.820s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_control_message_s.c
+[41.821s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_controller_status.py
+[41.821s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_o_drive_status_s.c
+[41.821s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/__init__.py
+[41.821s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_controller_status_s.c
+[41.821s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_control_message.py
+[41.821s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/__init__.py
+[41.822s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_introspection_c.so
+[41.822s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/_odrive_can_s.ep.rosidl_typesupport_c.c
+[41.904s] Listing '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can'...
+[41.905s] Compiling '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/__init__.py'...
+[41.905s] Listing '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg'...
+[41.905s] Compiling '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/__init__.py'...
+[41.905s] Compiling '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_control_message.py'...
+[41.905s] Compiling '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_controller_status.py'...
+[41.905s] Compiling '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/msg/_o_drive_status.py'...
+[41.905s] Listing '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/srv'...
+[41.905s] Compiling '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/srv/__init__.py'...
+[41.906s] Compiling '/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/srv/_axis_state.py'...
+[41.925s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_fastrtps_c.so
+[41.926s] -- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_fastrtps_c.so" to ""
+[41.926s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_introspection_c.so
+[41.929s] -- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_introspection_c.so" to ""
+[41.930s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_c.so
+[41.931s] -- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/python3.12/site-packages/odrive_can/odrive_can_s__rosidl_typesupport_c.so" to ""
+[41.932s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_generator_py.so
+[41.933s] -- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/libodrive_can__rosidl_generator_py.so" to ""
+[41.934s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ControlMessage.idl
+[41.935s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ControllerStatus.idl
+[41.935s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ODriveStatus.idl
+[41.936s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/srv/AxisState.idl
+[41.936s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ControlMessage.msg
+[41.937s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ControllerStatus.msg
+[41.937s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/msg/ODriveStatus.msg
+[41.938s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/srv/AxisState.srv
+[41.938s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/odrive_can/odrive_can_node
+[41.950s] -- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/odrive_can/lib/odrive_can/odrive_can_node" to ""
+[41.950s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/launch
+[41.951s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/launch/example_launch.yaml
+[41.952s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/ament_index/resource_index/package_run_dependencies/odrive_can
+[41.952s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/ament_index/resource_index/parent_prefix_path/odrive_can
+[41.953s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/ament_prefix_path.sh
+[41.953s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/ament_prefix_path.dsv
+[41.953s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/path.sh
+[41.954s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/environment/path.dsv
+[41.954s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/local_setup.bash
+[41.954s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/local_setup.sh
+[41.954s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/local_setup.zsh
+[41.955s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/local_setup.dsv
+[41.955s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/package.dsv
+[41.956s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/ament_index/resource_index/packages/odrive_can
+[41.956s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_generator_cExport.cmake
+[41.956s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_generator_cExport-noconfig.cmake
+[41.956s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_typesupport_fastrtps_cExport.cmake
+[41.956s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[41.957s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_generator_cppExport.cmake
+[41.957s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_typesupport_fastrtps_cppExport.cmake
+[41.957s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[41.957s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_introspection_cExport.cmake
+[41.958s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[41.958s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_cExport.cmake
+[41.958s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_cExport-noconfig.cmake
+[41.959s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_introspection_cppExport.cmake
+[41.959s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[41.959s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_cppExport.cmake
+[41.959s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_can__rosidl_typesupport_cppExport-noconfig.cmake
+[41.960s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_generator_pyExport.cmake
+[41.960s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/export_odrive_can__rosidl_generator_pyExport-noconfig.cmake
+[41.960s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/rosidl_cmake-extras.cmake
+[41.960s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.961s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.961s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/ament_cmake_export_libraries-extras.cmake
+[41.961s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/ament_cmake_export_targets-extras.cmake
+[41.961s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[41.962s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[41.962s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_canConfig.cmake
+[41.962s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/cmake/odrive_canConfig-version.cmake
+[41.962s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/odrive_can/share/odrive_can/package.xml
+[41.967s] Invoked command in '/home/pneumatic8/Documents/ros2_odrive/build/odrive_can' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pneumatic8/Documents/ros2_odrive/build/odrive_can

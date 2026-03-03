@@ -1,0 +1,10 @@
+/home/pneumatic8/Documents/ros2_odrive/build/motor_sine/CMakeFiles/uninstall.dir
+/home/pneumatic8/Documents/ros2_odrive/build/motor_sine/CMakeFiles/motor_sine_uninstall.dir
+/home/pneumatic8/Documents/ros2_odrive/build/motor_sine/CMakeFiles/sine_pub.dir
+/home/pneumatic8/Documents/ros2_odrive/build/motor_sine/CMakeFiles/test.dir
+/home/pneumatic8/Documents/ros2_odrive/build/motor_sine/CMakeFiles/edit_cache.dir
+/home/pneumatic8/Documents/ros2_odrive/build/motor_sine/CMakeFiles/rebuild_cache.dir
+/home/pneumatic8/Documents/ros2_odrive/build/motor_sine/CMakeFiles/list_install_components.dir
+/home/pneumatic8/Documents/ros2_odrive/build/motor_sine/CMakeFiles/install.dir
+/home/pneumatic8/Documents/ros2_odrive/build/motor_sine/CMakeFiles/install/local.dir
+/home/pneumatic8/Documents/ros2_odrive/build/motor_sine/CMakeFiles/install/strip.dir

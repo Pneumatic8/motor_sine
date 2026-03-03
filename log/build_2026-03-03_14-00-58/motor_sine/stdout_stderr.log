@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/sine_pub.dir/src/sine_pub.cpp.o[0m
+[01m[K/home/pneumatic8/Documents/ros2_odrive/src/motor_sine/src/sine_pub.cpp:[m[K In lambda function:
+[01m[K/home/pneumatic8/Documents/ros2_odrive/src/motor_sine/src/sine_pub.cpp:23:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrive_can[m[K’ has not been declared
+   23 |         auto message = [01;31m[Kdrive_can[m[K::msg::ControlMessage();
+      |                        [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sine_pub.dir/build.make:76: CMakeFiles/sine_pub.dir/src/sine_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sine_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

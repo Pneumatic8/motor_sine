@@ -1,0 +1,25 @@
+[0.026s] Invoking command in '/home/pneumatic8/Documents/ros2_odrive/build/motor_sine': CMAKE_PREFIX_PATH=/home/pneumatic8/Documents/ros2_odrive/install/odrive_can:/home/pneumatic8/Documents/ros2_odrive/install/motor_sine:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pneumatic8/Documents/ros2_odrive/build/motor_sine -- -j4 -l4
+[0.152s] [ 50%] [32mBuilding CXX object CMakeFiles/sine_pub.dir/src/sine_pub.cpp.o[0m
+[7.258s] [100%] [32m[1mLinking CXX executable sine_pub[0m
+[7.652s] [100%] Built target sine_pub
+[7.694s] Invoked command in '/home/pneumatic8/Documents/ros2_odrive/build/motor_sine' returned '0': CMAKE_PREFIX_PATH=/home/pneumatic8/Documents/ros2_odrive/install/odrive_can:/home/pneumatic8/Documents/ros2_odrive/install/motor_sine:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pneumatic8/Documents/ros2_odrive/build/motor_sine -- -j4 -l4
+[7.708s] Invoking command in '/home/pneumatic8/Documents/ros2_odrive/build/motor_sine': CMAKE_PREFIX_PATH=/home/pneumatic8/Documents/ros2_odrive/install/odrive_can:/home/pneumatic8/Documents/ros2_odrive/install/motor_sine:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pneumatic8/Documents/ros2_odrive/build/motor_sine
+[7.725s] -- Install configuration: ""
+[7.725s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/lib/motor_sine/sine_pub
+[7.730s] -- Set non-toolchain portion of runtime path of "/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/lib/motor_sine/sine_pub" to ""
+[7.730s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/ament_index/resource_index/package_run_dependencies/motor_sine
+[7.730s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/ament_index/resource_index/parent_prefix_path/motor_sine
+[7.730s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/environment/ament_prefix_path.sh
+[7.730s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/environment/ament_prefix_path.dsv
+[7.730s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/environment/path.sh
+[7.731s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/environment/path.dsv
+[7.731s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/local_setup.bash
+[7.732s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/local_setup.sh
+[7.732s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/local_setup.zsh
+[7.732s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/local_setup.dsv
+[7.732s] -- Installing: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/package.dsv
+[7.732s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/ament_index/resource_index/packages/motor_sine
+[7.732s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/cmake/motor_sineConfig.cmake
+[7.732s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/cmake/motor_sineConfig-version.cmake
+[7.732s] -- Up-to-date: /home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/package.xml
+[7.738s] Invoked command in '/home/pneumatic8/Documents/ros2_odrive/build/motor_sine' returned '0': CMAKE_PREFIX_PATH=/home/pneumatic8/Documents/ros2_odrive/install/odrive_can:/home/pneumatic8/Documents/ros2_odrive/install/motor_sine:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pneumatic8/Documents/ros2_odrive/build/motor_sine

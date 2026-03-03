@@ -1,0 +1,16 @@
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/lib/motor_sine/sine_pub
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/ament_index/resource_index/package_run_dependencies/motor_sine
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/ament_index/resource_index/parent_prefix_path/motor_sine
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/environment/ament_prefix_path.sh
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/environment/ament_prefix_path.dsv
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/environment/path.sh
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/environment/path.dsv
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/local_setup.bash
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/local_setup.sh
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/local_setup.zsh
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/local_setup.dsv
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/package.dsv
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/ament_index/resource_index/packages/motor_sine
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/cmake/motor_sineConfig.cmake
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/cmake/motor_sineConfig-version.cmake
+/home/pneumatic8/Documents/ros2_odrive/install/motor_sine/share/motor_sine/package.xml

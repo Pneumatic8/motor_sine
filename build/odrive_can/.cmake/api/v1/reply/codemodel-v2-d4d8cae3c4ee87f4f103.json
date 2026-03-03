@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-156891d367b118ae7da9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "odrive_can__py",
+					"jsonFile" : "directory-odrive_can__py-c6354627d0e329be3689.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pneumatic8/Documents/ros2_odrive/build/odrive_can/odrive_can__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "odrive_can",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_odrive_can_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_odrive_can_egg-42a3f3a21cf7bc9e62ca.json",
+					"name" : "ament_cmake_python_build_odrive_can_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_odrive_can::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_odrive_can-8fd1555ba198079cfa02.json",
+					"name" : "ament_cmake_python_copy_odrive_can",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can-ee619a15da79ec11d63b.json",
+					"name" : "odrive_can",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can__cpp-d31207d9afe0b7d4b7e4.json",
+					"name" : "odrive_can__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "odrive_can__py::@fa32cb221e68de44f1f0",
+					"jsonFile" : "target-odrive_can__py-be273eab8052e4b33683.json",
+					"name" : "odrive_can__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can__rosidl_generator_c-ada5851719eebef3da0d.json",
+					"name" : "odrive_can__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can__rosidl_generator_py-ee7e6f42976252f49c01.json",
+					"name" : "odrive_can__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can__rosidl_generator_type_description-9b064e5a5ba8b7afc47f.json",
+					"name" : "odrive_can__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can__rosidl_typesupport_c-f339c6dfbd7d0d52a539.json",
+					"name" : "odrive_can__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can__rosidl_typesupport_cpp-b8f5bd6a6a38f6dd4f08.json",
+					"name" : "odrive_can__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can__rosidl_typesupport_fastrtps_c-49b5991c745fc70ffaa5.json",
+					"name" : "odrive_can__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can__rosidl_typesupport_fastrtps_cpp-fb8961f8fd2f309550c9.json",
+					"name" : "odrive_can__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can__rosidl_typesupport_introspection_c-f19aef7cc6645268127a.json",
+					"name" : "odrive_can__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can__rosidl_typesupport_introspection_cpp-96a57ab308eb9b09cfe5.json",
+					"name" : "odrive_can__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can_node-e63332655d996af4e157.json",
+					"name" : "odrive_can_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can_s__rosidl_typesupport_c-585aa7b4aeaee70fb1fc.json",
+					"name" : "odrive_can_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can_s__rosidl_typesupport_fastrtps_c-fb95a3d7870c12eb6cb6.json",
+					"name" : "odrive_can_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can_s__rosidl_typesupport_introspection_c-c3bb13686a1b1ca0afd5.json",
+					"name" : "odrive_can_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_can_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_can_uninstall-6bce0d74eff6b59577d8.json",
+					"name" : "odrive_can_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-baca3b58b8fee461faa7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pneumatic8/Documents/ros2_odrive/build/odrive_can",
+		"source" : "/home/pneumatic8/Documents/ros2_odrive/src/ros_odrive/odrive_node"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,10 @@
+[0.026s] Invoking command in '/home/pneumatic8/Documents/ros2_odrive/build/motor_sine': CMAKE_PREFIX_PATH=/home/pneumatic8/Documents/ros2_odrive/install/odrive_can:/home/pneumatic8/Documents/ros2_odrive/install/motor_sine:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pneumatic8/Documents/ros2_odrive/build/motor_sine -- -j4 -l4
+[0.180s] [ 50%] [32mBuilding CXX object CMakeFiles/sine_pub.dir/src/sine_pub.cpp.o[0m
+[3.520s] [01m[K/home/pneumatic8/Documents/ros2_odrive/src/motor_sine/src/sine_pub.cpp:[m[K In lambda function:
+[3.520s] [01m[K/home/pneumatic8/Documents/ros2_odrive/src/motor_sine/src/sine_pub.cpp:24:28:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""f[m[K’
+[3.521s]    24 |         vel =  sin(time_ * [01;31m[K10f[m[K) * 10.0f;
+[3.521s]       |                            [01;31m[K^~~[m[K
+[5.025s] gmake[2]: *** [CMakeFiles/sine_pub.dir/build.make:76: CMakeFiles/sine_pub.dir/src/sine_pub.cpp.o] Error 1
+[5.025s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sine_pub.dir/all] Error 2
+[5.025s] gmake: *** [Makefile:146: all] Error 2
+[5.029s] Invoked command in '/home/pneumatic8/Documents/ros2_odrive/build/motor_sine' returned '2': CMAKE_PREFIX_PATH=/home/pneumatic8/Documents/ros2_odrive/install/odrive_can:/home/pneumatic8/Documents/ros2_odrive/install/motor_sine:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pneumatic8/Documents/ros2_odrive/build/motor_sine -- -j4 -l4

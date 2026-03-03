@@ -1,0 +1,7 @@
+[0.030s] Invoking command in '/home/pneumatic8/Documents/ros2_odrive/build/motor_sine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pneumatic8/Documents/ros2_odrive/src/motor_sine -DCMAKE_INSTALL_PREFIX=/home/pneumatic8/Documents/ros2_odrive/install/motor_sine
+[0.164s] [31mCMake Error at CMakeLists.txt:19:
+[0.164s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.164s] 
+[0.164s] [0m
+[0.167s] -- Configuring incomplete, errors occurred!
+[0.181s] Invoked command in '/home/pneumatic8/Documents/ros2_odrive/build/motor_sine' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pneumatic8/Documents/ros2_odrive/src/motor_sine -DCMAKE_INSTALL_PREFIX=/home/pneumatic8/Documents/ros2_odrive/install/motor_sine
